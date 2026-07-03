@@ -16,7 +16,7 @@ const services = [
     desc: 'Our custom website development services ensure your website is tailored to your unique business needs and objectives.',
     icon: Code,
     items: ['Bespoke Design: Create a unique and visually appealing design that aligns with your brand identity.', 'Scalable Solutions: Develop websites that can grow with your business, accommodating future expansion and functionality.', 'Responsive Design: Ensure your website is fully responsive, providing an optimal viewing experience across all devices.'],
-    image: 'https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1778912299/AQn4-SZaq2QlH2hZkA_zn_950uWOoYQAK_1zIHEIhf9pIboTlO9omMCx0J62X5g3lGXy3Z9NqGRyIlw2utKUP7FGbqf8PGQgI5ZH1y8T-OmrVwsPG63jQizSXgQx9jqXTJHYw1pV7I21k_AS66lliabo2P4pw.jpeg_covn49.jpg'
+    image: 'https://res.cloudinary.com/didtfhfme/image/upload/v1778912299/AQNn4-SZaq2QlH2hZkA_zn_950uWOoYQAK_1zIHEIhf9pIboTlO9omMCx0J62X5g3lGXy3Z9NqGRyIlw2utKUP7FGbqf8PGQgI5ZH1y8T-OmrVwsPG63jQizSXgQx9jqXTJHYw1pV7I21k_AS66lliabo2P4pw.jpeg_covn49.jpg'
   },
   {
     title: 'E-Commerce Development',
