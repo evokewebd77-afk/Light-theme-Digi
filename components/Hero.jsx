@@ -1,6 +1,13 @@
 import { useEffect, useState, useRef, useCallback } from 'react';
 import { ArrowUpRight, ChevronLeft, ChevronRight } from 'lucide-react';
 
+const getSrcSet = (url) => {
+  if (!url || !url.includes('cloudinary.com')) return undefined;
+  const baseUrl = url.replace('/f_auto,q_auto/', '/');
+  const sizes = [480, 800, 1200, 1600];
+  return sizes.map(w => `${baseUrl.replace('/upload/', `/upload/w_${w},c_limit,f_auto,q_auto/`)} ${w}w`).join(', ');
+};
+
 const slides = [
   {
     badge: 'Google & Meta Ads Expert',
@@ -105,7 +112,14 @@ function Hero() {
       {/* Background image — covers full section */}
       {slides[currentSlide].bg && (
         <div className="hero-bg-overlay">
-          <img src={slides[currentSlide].bg} alt="" fetchpriority={currentSlide === 0 ? 'high' : 'auto'} loading={currentSlide === 0 ? 'eager' : 'lazy'} />
+          <img
+            src={slides[currentSlide].bg}
+            srcSet={getSrcSet(slides[currentSlide].bg)}
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 100vw, 100vw"
+            alt=""
+            fetchpriority={currentSlide === 0 ? 'high' : 'auto'}
+            loading={currentSlide === 0 ? 'eager' : 'lazy'}
+          />
         </div>
       )}
 
