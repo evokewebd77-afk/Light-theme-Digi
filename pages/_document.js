@@ -16,7 +16,8 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,800;1,400&family=DM+Sans:wght@400;500;700&family=Space+Mono:wght@400&family=Rajdhani:wght@600;700&family=Space+Grotesk:wght@400;600&display=swap"
           rel="stylesheet"
         />
-        <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%231A1A2E'/%3E%3Ctext x='16' y='22' text-anchor='middle' font-family='sans-serif' font-weight='700' font-size='18' fill='%23C9A84C'%3EDA%3C/text%3E%3C/svg%3E" />
+        <link rel="icon" href="https://res.cloudinary.com/didtfhfme/image/upload/v1779180783/logo_wc6s9i.png" />
+        <link rel="apple-touch-icon" href="https://res.cloudinary.com/didtfhfme/image/upload/v1779180783/logo_wc6s9i.png" />
       </Head>
       <body>
         <Main />
