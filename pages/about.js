@@ -94,7 +94,7 @@ const About = () => {
               <p style={{ fontSize: 14, color: 'var(--text-secondary)', marginBottom: 16 }}>
                 Download our Services Portfolio to know what more we have to offer!
               </p>
-              <a href="#" style={{ display: 'inline-flex', alignItems: 'center', gap: 8, padding: '12px 24px', background: '#d73d56', color: '#fff', borderRadius: 100, fontWeight: 700, fontSize: 14, textDecoration: 'none' }}>
+              <a href="/brochure.pdf" download style={{ display: 'inline-flex', alignItems: 'center', gap: 8, padding: '12px 24px', background: '#d73d56', color: '#fff', borderRadius: 100, fontWeight: 700, fontSize: 14, textDecoration: 'none' }}>
                 <Download size={16} /> Download Brochure
               </a>
             </div>

@@ -10,7 +10,7 @@ function Playbook() {
             Ready to Scale <span className="font-display-italic">Your Revenue?</span>
           </h2>
           <p style={{ color: 'var(--text-secondary)', fontSize: '18px', maxWidth: '600px', margin: '0 auto 48px', lineHeight: '1.8' }}>
-            Download our 2026 Growth Playbook and discover the AI-driven strategies we use to dominate markets.
+            Download our Brochure and discover the AI-driven strategies we use to dominate markets.
           </p>
           <div style={{ display: 'flex', gap: '20px', justifyContent: 'center', flexWrap: 'wrap' }}>
             <a href="#contact" className="btn btn-primary" style={{ padding: '20px 48px' }}>
