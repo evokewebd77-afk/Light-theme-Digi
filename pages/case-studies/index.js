@@ -42,14 +42,22 @@ function CaseStudies() {
                   <p style={{ fontSize: '15px', color: 'var(--text-secondary)', lineHeight: 1.7, marginBottom: '24px', flex: 1 }}>
                     {project.description}
                   </p>
-                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: '8px', marginTop: 'auto', width: '100%' }}>
-                    <Link href={`/case-studies/${project.slug}`} style={{ background: 'transparent', border: '2px solid var(--border-color)', padding: '10px 14px', borderRadius: '100px', fontSize: '12px', fontWeight: 700, color: 'var(--text-primary)', cursor: 'pointer', transition: 'all 0.3s', textDecoration: 'none', textAlign: 'center', whiteSpace: 'nowrap' }}>
-                      Read Full Case Study ↗
-                    </Link>
-                    <a href={project.website || "#"} target="_blank" rel="noopener noreferrer" style={{ background: '#d73d56', border: '2px solid #d73d56', padding: '10px 14px', borderRadius: '100px', fontSize: '12px', fontWeight: 700, color: '#fff', cursor: 'pointer', transition: 'all 0.3s', textDecoration: 'none', textAlign: 'center', whiteSpace: 'nowrap' }}>
-                      Visit Website ↗
-                    </a>
-                  </div>
+                  {project.slug !== 'granata' && (
+                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: '8px', marginTop: 'auto', width: '100%' }}>
+                      <Link href={`/case-studies/${project.slug}`} style={{ background: 'transparent', border: '2px solid var(--border-color)', padding: '10px 14px', borderRadius: '100px', fontSize: '12px', fontWeight: 700, color: 'var(--text-primary)', cursor: 'pointer', transition: 'all 0.3s', textDecoration: 'none', textAlign: 'center', whiteSpace: 'nowrap' }}>
+                        Read Full Case Study ↗
+                      </Link>
+                      {project.slug === 'morphe-clinic' ? (
+                        <a href="https://drakhilplasticsurgery.com/breast-consultancy/" target="_blank" rel="noopener noreferrer" style={{ background: '#d73d56', border: '2px solid #d73d56', padding: '10px 14px', borderRadius: '100px', fontSize: '12px', fontWeight: 700, color: '#fff', cursor: 'pointer', transition: 'all 0.3s', textDecoration: 'none', textAlign: 'center', whiteSpace: 'nowrap' }}>
+                          View Page ↗
+                        </a>
+                      ) : (
+                        <a href={project.website || "#"} target="_blank" rel="noopener noreferrer" style={{ background: '#d73d56', border: '2px solid #d73d56', padding: '10px 14px', borderRadius: '100px', fontSize: '12px', fontWeight: 700, color: '#fff', cursor: 'pointer', transition: 'all 0.3s', textDecoration: 'none', textAlign: 'center', whiteSpace: 'nowrap' }}>
+                          Visit Website ↗
+                        </a>
+                      )}
+                    </div>
+                  )}
                 </div>
               </div>
             ))}

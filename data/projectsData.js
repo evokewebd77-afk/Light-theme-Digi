@@ -17,15 +17,7 @@ export const projects = [
     image: 'https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180795/SFT_BG_cwiatd.jpg',
     website: 'https://sftrainings.org'
   },
-  {
-    id: 3,
-    slug: 'eurotech',
-    title: 'EuroTech (India)',
-    description: 'Leading training and certification company specializing in welding inspection, industrial training, testing, and international certification services.',
-    category: 'Certification',
-    image: 'https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180771/eurotech_bg_fzkv4q.jpg',
-    website: 'https://www.eurotechworld.net/'
-  },
+
   {
     id: 4,
     slug: 'eurocert',
@@ -45,27 +37,38 @@ export const projects = [
     website: 'https://www.meddevices.net/'
   },
   {
-    id: 6,
+    id: 7,
+    slug: 'plumbing-services-usa',
+    title: 'Plumbing Services (USA)',
+    description: 'A leading residential and commercial plumbing company in the USA that scaled its service requests and local search dominance through advanced local SEO and targeted lead generation campaigns.',
+    category: 'Local Services',
+    image: 'https://res.cloudinary.com/didtfhfme/image/upload/v1783507591/741870970_4303995703186533_3102161502384975322_n.webp_wb8hsg.webp'
+  },
+  {
+    id: 9,
+    slug: 'morphe-clinic',
+    title: 'Morphe Clinic (Chandigarh)',
+    description: 'Generating 100+ Qualified Plastic Surgery Enquiries for Morphe Clinic Through Google Ads with dedicated landing pages and accurate conversion tracking.',
+    category: 'Healthcare',
+    image: 'https://images.unsplash.com/photo-1551076805-e1869033e561?w=800&h=600&fit=crop',
+    website: 'https://drakhilplasticsurgery.com'
+  },
+  {
+    id: 10,
+    slug: 'eurotech-world',
+    title: 'EuroTech World',
+    description: 'Is a leading provider of inspection, testing, certification, training, and compliance solutions, helping businesses meet national and international quality, safety, and regulatory standards. Established in 2008.',
+    category: 'Global Compliance',
+    image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop',
+    website: 'https://www.eurotechworld.net/'
+  },
+  {
+    id: 8,
     slug: 'granata',
     title: 'Granata (Bahrain)',
     description: 'Granata is a premium brand focused on elegant interiors, modern lifestyle solutions, and a refined digital presence.',
     category: 'Interior Design',
     image: 'https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779423733/AQP8UhjL0zlkHAEBvtvWweXy59fqnzmi0fTPLSMkY4l7NFq0kLfpuZ4Ym2OFJ0n4xJVUcfN9FMXV1ze7plqPGyltTX_4yGXvcmF1bgXfElhWZ1ZNu2SnaFd-izfth3rNRSN1KNWJW7_XJ7kvyArmgoChrtRhRQ.jpeg_krc3fy.jpg'
   },
-  {
-    id: 7,
-    slug: 'himalayan',
-    title: 'Himalayan (India)',
-    description: 'Himalayan is a dynamic brand delivering innovative solutions with a strong focus on quality, growth, and digital excellence.',
-    category: 'Brand Solutions',
-    image: 'https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779423624/AQMGz5vkmp1AdOcRqaPnDJDzRkcZDlmF_F_eytzsIJ-kuF4Az982ADTIcQvMAnp1li2XCY4ThKNpegDdWf4uZUlYzFz5LhxwyrjsaAndq_cMfA1EkcgnbJjEEAXhzTGl2T49kZErcQQcU4nS9-_4EjauM6dGGg.jpeg_eub9kb.jpg'
-  },
-  {
-    id: 8,
-    slug: 'eurotech-canada',
-    title: 'EuroTech (Canada)',
-    description: 'Global certification and compliance company providing ISO certifications, CE certifications, and social & labour auditing services across Canada, USA, and UK.',
-    category: 'Global Compliance',
-    image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop'
-  }
+
 ];
