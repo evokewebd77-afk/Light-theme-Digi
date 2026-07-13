@@ -47,11 +47,7 @@ function CaseStudies() {
                       <Link href={`/case-studies/${project.slug}`} style={{ background: 'transparent', border: '2px solid var(--border-color)', padding: '10px 14px', borderRadius: '100px', fontSize: '12px', fontWeight: 700, color: 'var(--text-primary)', cursor: 'pointer', transition: 'all 0.3s', textDecoration: 'none', textAlign: 'center', whiteSpace: 'nowrap' }}>
                         Read Full Case Study ↗
                       </Link>
-                      {project.slug === 'morphe-clinic' ? (
-                        <a href="https://drakhilplasticsurgery.com/breast-consultancy/" target="_blank" rel="noopener noreferrer" style={{ background: '#d73d56', border: '2px solid #d73d56', padding: '10px 14px', borderRadius: '100px', fontSize: '12px', fontWeight: 700, color: '#fff', cursor: 'pointer', transition: 'all 0.3s', textDecoration: 'none', textAlign: 'center', whiteSpace: 'nowrap' }}>
-                          View Page ↗
-                        </a>
-                      ) : (
+                      {project.slug !== 'plastic-surgery-clinic' && (
                         <a href={project.website || "#"} target="_blank" rel="noopener noreferrer" style={{ background: '#d73d56', border: '2px solid #d73d56', padding: '10px 14px', borderRadius: '100px', fontSize: '12px', fontWeight: 700, color: '#fff', cursor: 'pointer', transition: 'all 0.3s', textDecoration: 'none', textAlign: 'center', whiteSpace: 'nowrap' }}>
                           Visit Website ↗
                         </a>

@@ -27,29 +27,29 @@ const card = (extra = {}) => ({
   padding: '32px 28px', ...extra,
 });
 
-function MorpheClinicCaseStudy() {
+function PlasticSurgeryCaseStudy() {
   return (
     <div style={{ paddingTop: 96 }}>
       <Head>
-        <title>Morphe Clinic Chandigarh - Plastic Surgery Lead Generation Case Study | Digimarketing Art</title>
-        <meta name="description" content="Read how Digimarketing Art generated 100+ qualified plastic surgery enquiries for Morphe Clinic, Chandigarh through Google Ads and dedicated landing pages." />
-        <meta name="keywords" content="plastic surgery lead generation, Google Ads plastic surgery, healthcare marketing, morphe clinic, cosmetic surgery marketing" />
+        <title>Plastic Surgery Clinic Chandigarh - Lead Generation Case Study | Digimarketing Art</title>
+        <meta name="description" content="Read how Digimarketing Art generated 100+ qualified plastic surgery enquiries for Plastic Surgery Clinic, Chandigarh through Google Ads and dedicated landing pages." />
+        <meta name="keywords" content="plastic surgery lead generation, Google Ads plastic surgery, healthcare marketing, plastic surgery clinic, cosmetic surgery marketing" />
       </Head>
 
       <style>{`
-        @keyframes morphe-rise { from{opacity:0;transform:translateY(24px)} to{opacity:1;transform:translateY(0)} }
-        @keyframes morphe-count { from{opacity:0;transform:translateY(10px)} to{opacity:1;transform:translateY(0)} }
-        .morphe-rise { animation: morphe-rise 0.6s cubic-bezier(.22,1,.36,1) both; }
-        .morphe-hover-card { transition: transform 0.25s ease, box-shadow 0.25s ease; }
-        .morphe-hover-card:hover { transform: translateY(-4px); box-shadow: 0 16px 48px rgba(0,0,0,0.09) !important; }
-        .morphe-tag { transition: background 0.2s, color 0.2s, border-color 0.2s; cursor:default; }
-        .morphe-tag:hover { background: ${THEME_COLOR} !important; color: #fff !important; border-color: ${THEME_COLOR} !important; }
-        .morphe-phase-wrap:hover .morphe-accent { width: 100% !important; }
-        .morphe-impact-card { transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s; }
-        .morphe-impact-card:hover { transform: translateY(-3px); box-shadow: 0 12px 36px rgba(215,61,86,0.15) !important; border-color: rgba(215,61,86,0.35) !important; }
-        .morphe-stat-badge { animation: morphe-count 0.7s ease both; }
-        .morphe-back-link { transition: color 0.18s, gap 0.18s; display:inline-flex; align-items:center; gap:7px; }
-        .morphe-back-link:hover { color: ${THEME_COLOR} !important; gap:12px !important; }
+        @keyframes ps-rise { from{opacity:0;transform:translateY(24px)} to{opacity:1;transform:translateY(0)} }
+        @keyframes ps-count { from{opacity:0;transform:translateY(10px)} to{opacity:1;transform:translateY(0)} }
+        .ps-rise { animation: ps-rise 0.6s cubic-bezier(.22,1,.36,1) both; }
+        .ps-hover-card { transition: transform 0.25s ease, box-shadow 0.25s ease; }
+        .ps-hover-card:hover { transform: translateY(-4px); box-shadow: 0 16px 48px rgba(0,0,0,0.09) !important; }
+        .ps-tag { transition: background 0.2s, color 0.2s, border-color 0.2s; cursor:default; }
+        .ps-tag:hover { background: ${THEME_COLOR} !important; color: #fff !important; border-color: ${THEME_COLOR} !important; }
+        .ps-phase-wrap:hover .ps-accent { width: 100% !important; }
+        .ps-impact-card { transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s; }
+        .ps-impact-card:hover { transform: translateY(-3px); box-shadow: 0 12px 36px rgba(215,61,86,0.15) !important; border-color: rgba(215,61,86,0.35) !important; }
+        .ps-stat-badge { animation: ps-count 0.7s ease both; }
+        .ps-back-link { transition: color 0.18s, gap 0.18s; display:inline-flex; align-items:center; gap:7px; }
+        .ps-back-link:hover { color: ${THEME_COLOR} !important; gap:12px !important; }
       `}</style>
 
       <section style={{
@@ -67,7 +67,7 @@ function MorpheClinicCaseStudy() {
           pointerEvents:'none', filter:'blur(2px)',
         }} />
 
-        <div className="morphe-rise" style={{ position:'relative', zIndex:1, maxWidth:920, margin:'0 auto' }}>
+        <div className="ps-rise" style={{ position:'relative', zIndex:1, maxWidth:920, margin:'0 auto' }}>
           <div style={{
             display:'inline-flex', alignItems:'center', gap:8, marginBottom:28,
             background:'rgba(255,255,255,0.07)', border:'1px solid rgba(255,255,255,0.14)',
@@ -87,11 +87,11 @@ function MorpheClinicCaseStudy() {
             Generating <span style={{
               color:THEME_COLOR, position:'relative', display:'inline-block',
               textShadow:`0 0 40px rgba(215,61,86,0.6)`,
-            }}>100+ Qualified Plastic Surgery Enquiries</span> for Morphe Clinic Through Google Ads
+            }}>100+ Qualified Plastic Surgery Enquiries</span> for the Clinic Through Google Ads
           </h1>
 
           <p style={{ fontSize:16, color:'rgba(255,255,255,0.72)', maxWidth:760, margin:'0 auto 36px', lineHeight:1.7 }}>
-            Morphe Clinic, Chandigarh — Transforming Digital Marketing into a Scalable Patient Acquisition System.
+            Plastic Surgery Clinic, Chandigarh — Transforming Digital Marketing into a Scalable Patient Acquisition System.
           </p>
 
           <div style={{ display:'flex', flexWrap:'wrap', gap:10, justifyContent:'center' }}>
@@ -114,7 +114,7 @@ function MorpheClinicCaseStudy() {
             { value:'2 LP',           sub:'Dedicated Landing Pages',     icon:'🎯' },
             { value:'Scalable',       sub:'Patient Acquisition System',  icon:'⚕️' },
           ].map((s,i) => (
-            <div key={i} className="morphe-stat-badge" style={{
+            <div key={i} className="ps-stat-badge" style={{
               padding:'28px 12px', textAlign:'center', animationDelay:`${i*0.1}s`,
               borderRight: i < 3 ? '1px solid var(--border-color)' : 'none',
             }}>
@@ -130,26 +130,26 @@ function MorpheClinicCaseStudy() {
 
       <section style={{ padding:'80px 24px', background:'var(--bg-primary)' }}>
         <div style={{ maxWidth:900, margin:'0 auto' }}>
-          <Link href="/case-studies" className="morphe-back-link" style={{ color:'var(--text-secondary)', textDecoration:'none', fontWeight:700, fontSize:14, marginBottom:40 }}>
+          <Link href="/case-studies" className="ps-back-link" style={{ color:'var(--text-secondary)', textDecoration:'none', fontWeight:700, fontSize:14, marginBottom:40 }}>
             <ArrowLeft size={16} /> Back to all case studies
           </Link>
 
-          <div className="morphe-hover-card" style={card({ marginBottom:24 })}>
+          <div className="ps-hover-card" style={card({ marginBottom:24 })}>
             <span style={label()}>Client Overview</span>
-            <h2 style={h2()}>About Morphe Clinic</h2>
+            <h2 style={h2()}>About the Clinic</h2>
             <p style={p({ marginBottom:20 })}>
-              Morphe Clinic, Chandigarh is a leading cosmetic and plastic surgery clinic headed by Dr. Akhil. The clinic offers advanced aesthetic and reconstructive procedures, including breast surgery, liposuction, body contouring, and other cosmetic treatments.
+              Plastic Surgery Clinic, Chandigarh is a leading cosmetic and plastic surgery clinic offering advanced aesthetic and reconstructive procedures, including breast surgery, liposuction, body contouring, and other cosmetic treatments.
             </p>
             <p style={p()}>
               Our objective was to build a reliable digital marketing system that could generate qualified patient enquiries from individuals actively seeking cosmetic surgery consultations.
             </p>
           </div>
 
-          <div className="morphe-hover-card" style={card({ marginBottom:24 })}>
+          <div className="ps-hover-card" style={card({ marginBottom:24 })}>
             <span style={label()}>The Hurdle</span>
             <h2 style={h2()}>The Challenge</h2>
             <p style={p({ marginBottom:20 })}>
-              Before partnering with our team, Morphe Clinic was investing in digital marketing but faced several challenges:
+              Before partnering with our team, the clinic was investing in digital marketing but faced several challenges:
             </p>
 
             <ul style={{ paddingLeft:20, margin:'0 0 24px', display:'flex', flexDirection:'column', gap:8 }}>
@@ -169,7 +169,7 @@ function MorpheClinicCaseStudy() {
             </p>
           </div>
 
-          <div className="morphe-hover-card" style={card({ marginBottom:24 })}>
+          <div className="ps-hover-card" style={card({ marginBottom:24 })}>
             <span style={label()}>Strategic Plan</span>
             <h2 style={h2()}>Our Approach</h2>
             <p style={p({ marginBottom:24 })}>
@@ -177,7 +177,7 @@ function MorpheClinicCaseStudy() {
             </p>
 
             <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fit,minmax(260px,1fr))', gap:20 }}>
-              <div className="morphe-phase-wrap" style={{ position:'relative', padding:'24px', background:'var(--bg-primary)', borderRadius:16, border:'1px solid var(--border-color)', overflow:'hidden' }}>
+              <div className="ps-phase-wrap" style={{ position:'relative', padding:'24px', background:'var(--bg-primary)', borderRadius:16, border:'1px solid var(--border-color)', overflow:'hidden' }}>
                 <span style={{ fontSize:12, fontWeight:800, color:THEME_COLOR, textTransform:'uppercase' }}>1. Dedicated Landing Pages</span>
                 <h4 style={{ fontSize:16, fontWeight:800, margin:'8px 0 12px' }}>Conversion-Focused Design</h4>
                 <p style={p({ fontSize:13 })}>
@@ -185,7 +185,7 @@ function MorpheClinicCaseStudy() {
                 </p>
               </div>
 
-              <div className="morphe-phase-wrap" style={{ position:'relative', padding:'24px', background:'var(--bg-primary)', borderRadius:16, border:'1px solid var(--border-color)', overflow:'hidden' }}>
+              <div className="ps-phase-wrap" style={{ position:'relative', padding:'24px', background:'var(--bg-primary)', borderRadius:16, border:'1px solid var(--border-color)', overflow:'hidden' }}>
                 <span style={{ fontSize:12, fontWeight:800, color:THEME_COLOR, textTransform:'uppercase' }}>2. Accurate Tracking</span>
                 <h4 style={{ fontSize:16, fontWeight:800, margin:'8px 0 12px' }}>GTM &amp; Google Ads Setup</h4>
                 <p style={p({ fontSize:13 })}>
@@ -193,7 +193,7 @@ function MorpheClinicCaseStudy() {
                 </p>
               </div>
 
-              <div className="morphe-phase-wrap" style={{ position:'relative', padding:'24px', background:'var(--bg-primary)', borderRadius:16, border:'1px solid var(--border-color)', overflow:'hidden' }}>
+              <div className="ps-phase-wrap" style={{ position:'relative', padding:'24px', background:'var(--bg-primary)', borderRadius:16, border:'1px solid var(--border-color)', overflow:'hidden' }}>
                 <span style={{ fontSize:12, fontWeight:800, color:THEME_COLOR, textTransform:'uppercase' }}>3. Campaign Optimization</span>
                 <h4 style={{ fontSize:16, fontWeight:800, margin:'8px 0 12px' }}>High-Intent Targeting</h4>
                 <p style={p({ fontSize:13 })}>
@@ -201,7 +201,7 @@ function MorpheClinicCaseStudy() {
                 </p>
               </div>
 
-              <div className="morphe-phase-wrap" style={{ position:'relative', padding:'24px', background:'var(--bg-primary)', borderRadius:16, border:'1px solid var(--border-color)', overflow:'hidden' }}>
+              <div className="ps-phase-wrap" style={{ position:'relative', padding:'24px', background:'var(--bg-primary)', borderRadius:16, border:'1px solid var(--border-color)', overflow:'hidden' }}>
                 <span style={{ fontSize:12, fontWeight:800, color:THEME_COLOR, textTransform:'uppercase' }}>4. Lead Quality Focus</span>
                 <h4 style={{ fontSize:16, fontWeight:800, margin:'8px 0 12px' }}>Quality Over Volume</h4>
                 <p style={p({ fontSize:13 })}>
@@ -211,7 +211,7 @@ function MorpheClinicCaseStudy() {
             </div>
           </div>
 
-          <div className="morphe-hover-card" style={card({ marginBottom:24 })}>
+          <div className="ps-hover-card" style={card({ marginBottom:24 })}>
             <span style={label()}>Conversion Infrastructure</span>
             <h2 style={h2()}>Landing Page Development</h2>
             <p style={p({ marginBottom:20 })}>
@@ -234,7 +234,7 @@ function MorpheClinicCaseStudy() {
             </div>
           </div>
 
-          <div className="morphe-hover-card" style={card({ marginBottom:24 })}>
+          <div className="ps-hover-card" style={card({ marginBottom:24 })}>
             <span style={label()}>Proven Success</span>
             <h2 style={h2()}>Results</h2>
             <p style={p({ marginBottom:24 })}>
@@ -248,7 +248,7 @@ function MorpheClinicCaseStudy() {
                 { icon:'🎯', title:'Improved Lead Quality', desc:'Significant reduction in irrelevant and unqualified enquiries through continuous optimization.' },
                 { icon:'📈', title:'Campaign Visibility', desc:'Improved campaign performance visibility enabling data-driven optimization decisions.' }
               ].map((item,i) => (
-                <div key={i} className="morphe-impact-card" style={{
+                <div key={i} className="ps-impact-card" style={{
                   padding:'20px', background:'var(--bg-primary)',
                   borderRadius:16, border:'1px solid var(--border-color)',
                   boxShadow:'0 2px 12px rgba(0,0,0,0.03)',
@@ -261,14 +261,14 @@ function MorpheClinicCaseStudy() {
             </div>
           </div>
 
-          <div className="morphe-hover-card" style={card({ marginBottom:24 })}>
+          <div className="ps-hover-card" style={card({ marginBottom:24 })}>
             <span style={label()}>Business Impact</span>
             <h2 style={h2()}>Transformation</h2>
             <p style={p({ marginBottom:20 })}>
               The combination of dedicated landing pages, accurate tracking, and strategic Google Ads management transformed the clinic's lead generation process.
             </p>
             <p style={p({ marginBottom:20 })}>
-              Instead of relying on assumptions, Morphe Clinic gained access to reliable performance data and a consistent stream of qualified consultation enquiries.
+              Instead of relying on assumptions, Plastic Surgery Clinic gained access to reliable performance data and a consistent stream of qualified consultation enquiries.
             </p>
             <p style={p()}>
               This created a scalable patient acquisition system that continues to support the clinic's growth and marketing efforts.
@@ -306,7 +306,7 @@ function MorpheClinicCaseStudy() {
                 Successful healthcare marketing is not about generating the highest number of clicks—it is about attracting genuine patients who are actively looking for treatment.
               </p>
               <p style={{ fontSize:14, color:'rgba(255,255,255,0.75)', lineHeight:1.75, maxWidth:580, margin:'0 auto' }}>
-                By implementing conversion-focused landing pages, proper tracking infrastructure, and a data-driven Google Ads strategy, we helped Morphe Clinic, Chandigarh generate over 100 qualified enquiries and significantly improve the effectiveness of its digital advertising campaigns.
+                By implementing conversion-focused landing pages, proper tracking infrastructure, and a data-driven Google Ads strategy, we helped Plastic Surgery Clinic, Chandigarh generate over 100 qualified enquiries and significantly improve the effectiveness of its digital advertising campaigns.
               </p>
             </div>
           </div>
@@ -320,4 +320,4 @@ function MorpheClinicCaseStudy() {
   );
 }
 
-export default MorpheClinicCaseStudy;
+export default PlasticSurgeryCaseStudy;

@@ -8,7 +8,7 @@ import ItcIndiaCaseStudy from './itc-india';
 import SustainableFuturesCaseStudy from './sustainable-futures';
 import EurocertCaseStudy from './eurocert';
 import PlumbingServicesUsaCaseStudy from './plumbing-services-usa';
-import MorpheClinicCaseStudy from './morphe-clinic';
+import PlasticSurgeryCaseStudy from './plastic-surgery-clinic';
 import MedDevicesCaseStudy from './meddevices';
 import EurotechWorldCaseStudy from './eurotech-world';
 
@@ -17,7 +17,7 @@ const caseStudyPages = {
   'sustainable-futures': SustainableFuturesCaseStudy,
   'eurocert': EurocertCaseStudy,
   'plumbing-services-usa': PlumbingServicesUsaCaseStudy,
-  'morphe-clinic': MorpheClinicCaseStudy,
+  'plastic-surgery-clinic': PlasticSurgeryCaseStudy,
   'meddevices': MedDevicesCaseStudy,
   'eurotech-world': EurotechWorldCaseStudy,
 };
@@ -97,7 +97,7 @@ function CaseStudyDetail({ project, slug }) {
 }
 
 export async function getStaticPaths() {
-  const staticSlugs = ['itc-india', 'sustainable-futures', 'eurocert', 'plumbing-services-usa', 'morphe-clinic', 'meddevices', 'eurotech-world'];
+  const staticSlugs = ['itc-india', 'sustainable-futures', 'eurocert', 'plumbing-services-usa', 'plastic-surgery-clinic', 'meddevices', 'eurotech-world'];
   const paths = projects
     .filter((p) => !staticSlugs.includes(p.slug))
     .map((p) => ({

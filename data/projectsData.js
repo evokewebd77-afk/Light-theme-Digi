@@ -45,15 +45,6 @@ export const projects = [
     image: 'https://res.cloudinary.com/didtfhfme/image/upload/v1783507591/741870970_4303995703186533_3102161502384975322_n.webp_wb8hsg.webp'
   },
   {
-    id: 9,
-    slug: 'morphe-clinic',
-    title: 'Morphe Clinic (Chandigarh)',
-    description: 'Generating 100+ Qualified Plastic Surgery Enquiries for Morphe Clinic Through Google Ads with dedicated landing pages and accurate conversion tracking.',
-    category: 'Healthcare',
-    image: 'https://images.unsplash.com/photo-1551076805-e1869033e561?w=800&h=600&fit=crop',
-    website: 'https://drakhilplasticsurgery.com'
-  },
-  {
     id: 10,
     slug: 'eurotech-world',
     title: 'EuroTech World',
@@ -61,6 +52,15 @@ export const projects = [
     category: 'Global Compliance',
     image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop',
     website: 'https://www.eurotechworld.net/'
+  },
+  {
+    id: 9,
+    slug: 'plastic-surgery-clinic',
+    title: 'Plastic Surgery Clinic (Chandigarh)',
+    description: 'Generating 100+ Qualified Plastic Surgery Enquiries for the Clinic Through Google Ads with dedicated landing pages and accurate conversion tracking.',
+    category: 'Healthcare',
+    image: 'https://images.unsplash.com/photo-1551076805-e1869033e561?w=800&h=600&fit=crop',
+    website: 'https://drakhilplasticsurgery.com'
   },
   {
     id: 8,
