@@ -275,21 +275,6 @@ function PlasticSurgeryCaseStudy() {
             </p>
           </div>
 
-          <div style={{ ...card({ marginBottom:24 }) }}>
-            <span style={label()}>Landing Page Example</span>
-            <h2 style={h2()}>Live Case Study</h2>
-            <p style={p({ marginBottom:20 })}>
-              See the Breast Surgery Consultation landing page in action:
-            </p>
-            <a href="https://drakhilplasticsurgery.com/breast-consultancy/" target="_blank" rel="noopener noreferrer" style={{
-              display:'inline-block', background:THEME_COLOR, border:'2px solid '+THEME_COLOR,
-              padding:'12px 28px', borderRadius:'100px', fontSize:'14px', fontWeight:700,
-              color:'#fff', cursor:'pointer', transition:'all 0.3s', textDecoration:'none',
-            }}>
-              View Landing Page ↗
-            </a>
-          </div>
-
           <div style={{
             borderRadius:24, padding:'52px 36px', textAlign:'center',
             background:`linear-gradient(135deg, #f87171 0%, ${THEME_COLOR} 50%, ${THEME_COLOR_DK} 100%)`,
