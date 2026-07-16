@@ -55,7 +55,7 @@ function MedDevicesCaseStudy() {
       <section style={{
         position: 'relative', overflow: 'hidden', padding: '100px 24px 90px',
         textAlign: 'center',
-        backgroundImage: 'url(https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779422857/AQPJ7G5Z7K660Mir6WN4i3dpgCNikYYyKCEsIoRv2bF-dTABr6OD4CD82ozDZm4Bc6RUlrSLPsBiZ0MdC4mfBgVM8gzrBJQE4R0ikWEIrWbdG589hEt3z2korpmsFqOJ_iNMkOUy3sYbSkCBKoEj_QHb2aJo1A.jpeg_xwglds.jpg)',
+        backgroundImage: 'url(https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_100/v1779422857/AQPJ7G5Z7K660Mir6WN4i3dpgCNikYYyKCEsIoRv2bF-dTABr6OD4CD82ozDZm4Bc6RUlrSLPsBiZ0MdC4mfBgVM8gzrBJQE4R0ikWEIrWbdG589hEt3z2korpmsFqOJ_iNMkOUy3sYbSkCBKoEj_QHb2aJo1A.jpeg_xwglds.jpg)',
         backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'scroll',
       }}>
         <div style={{ position:'absolute', inset:0, background:'linear-gradient(160deg,rgba(0,0,0,0.85) 0%, rgba(5,20,20,0.8) 100%)', pointerEvents:'none' }} />

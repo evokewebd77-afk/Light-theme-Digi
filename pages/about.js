@@ -37,7 +37,7 @@ const About = () => {
         <meta name="keywords" content="about digital marketing agency, digital marketing company India, AI marketing agency, marketing agency Mohali" />
       </Head>
       {/* Hero */}
-      <section style={{ padding: '120px 24px', textAlign: 'center', position: 'relative', overflow: 'hidden', backgroundImage: 'url(https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1781929713/40277f48-6fe5-4471-8859-c50393224a21_tshgxe.png)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'scroll' }}>
+      <section style={{ padding: '120px 24px', textAlign: 'center', position: 'relative', overflow: 'hidden', backgroundImage: 'url(https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1781929713/40277f48-6fe5-4471-8859-c50393224a21_tshgxe.png)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'fixed' }}>
         <div style={{ position: 'absolute', inset: 0, background: 'rgba(0,0,0,0.5)', pointerEvents: 'none' }} />
         <div style={{ maxWidth: 800, margin: '0 auto', position: 'relative', zIndex: 1 }}>
           <span style={{ fontSize: 12, letterSpacing: '0.4em', textTransform: 'uppercase', color: '#fff', display: 'block', marginBottom: 16, textShadow: '0 1px 4px rgba(0,0,0,0.4)' }}>
@@ -58,7 +58,7 @@ const About = () => {
       </section>
 
       {/* Stats Bar */}
-      <section style={{ padding: '60px 24px', position: 'relative', overflow: 'hidden', backgroundImage: 'url(https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1781687554/AQPqEfQY7KCGO6l6kexc9wZecTTZRzmelId_ulbCzx807tMDAZmY4DXobBKYZObGjmIzJYK4Nz62tRkLCai8IxxQAESf_AJtC2Z_JbfEFO_zQIHgsFCLqSddIMq80Mnc5IhRJ54kG6fkvrc1GYQK24Fz9_tK-w.jpeg_kc4oh6.jpg)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'scroll' }}>
+      <section style={{ padding: '60px 24px', position: 'relative', overflow: 'hidden', backgroundImage: 'url(https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1781687554/AQPqEfQY7KCGO6l6kexc9wZecTTZRzmelId_ulbCzx807tMDAZmY4DXobBKYZObGjmIzJYK4Nz62tRkLCai8IxxQAESf_AJtC2Z_JbfEFO_zQIHgsFCLqSddIMq80Mnc5IhRJ54kG6fkvrc1GYQK24Fz9_tK-w.jpeg_kc4oh6.jpg)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'fixed' }}>
         <div style={{ position: 'absolute', inset: 0, background: 'rgba(255,255,255,0.85)', pointerEvents: 'none' }} />
         <div style={{ maxWidth: 1100, margin: '0 auto', position: 'relative', zIndex: 1, display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(160px, 1fr))', gap: 40, textAlign: 'center' }}>
           {stats.map((s) => (
@@ -71,7 +71,7 @@ const About = () => {
       </section>
 
       {/* Powering Growth */}
-      <section id="story" style={{ padding: '100px 24px', backgroundImage: 'url(https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1781929419/122598b8-c44e-4a5b-a437-8dc6319779e0_dawli0.png)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'scroll' }}>
+      <section id="story" style={{ padding: '100px 24px', backgroundImage: 'url(https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1781929419/122598b8-c44e-4a5b-a437-8dc6319779e0_dawli0.png)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'fixed' }}>
         <div className="responsive-two-column-grid about-gap" style={{ maxWidth: 1100, margin: '0 auto' }}>
           <div>
             <span style={{ fontSize: 12, letterSpacing: '0.4em', textTransform: 'uppercase', color: '#fff', display: 'block', marginBottom: 12, textShadow: '0 1px 4px rgba(0,0,0,0.4)' }}>POWERING GROWTH</span>
@@ -145,7 +145,7 @@ const About = () => {
       </section>
 
       {/* Why Choose Us */}
-      <section style={{ padding: '100px 24px', position: 'relative', overflow: 'hidden', backgroundImage: 'url(https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1781687554/AQPqEfQY7KCGO6l6kexc9wZecTTZRzmelId_ulbCzx807tMDAZmY4DXobBKYZObGjmIzJYK4Nz62tRkLCai8IxxQAESf_AJtC2Z_JbfEFO_zQIHgsFCLqSddIMq80Mnc5IhRJ54kG6fkvrc1GYQK24Fz9_tK-w.jpeg_kc4oh6.jpg)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'scroll' }}>
+      <section style={{ padding: '100px 24px', position: 'relative', overflow: 'hidden', backgroundImage: 'url(https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1781687554/AQPqEfQY7KCGO6l6kexc9wZecTTZRzmelId_ulbCzx807tMDAZmY4DXobBKYZObGjmIzJYK4Nz62tRkLCai8IxxQAESf_AJtC2Z_JbfEFO_zQIHgsFCLqSddIMq80Mnc5IhRJ54kG6fkvrc1GYQK24Fz9_tK-w.jpeg_kc4oh6.jpg)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'fixed' }}>
         <div style={{ position: 'absolute', inset: 0, background: 'rgba(255,255,255,0.85)', pointerEvents: 'none' }} />
         <div style={{ maxWidth: 1100, margin: '0 auto', position: 'relative', zIndex: 1 }}>
           <div style={{ textAlign: 'center', marginBottom: 60 }}>
@@ -175,7 +175,7 @@ const About = () => {
             </div>
             <div>
               <p style={{ fontSize: 13, color: '#555', marginBottom: 4 }}>Global Presence</p>
-              <span style={{ fontWeight: 600, fontSize: 14 }}>India | UK | USA | Canada | Dubai</span>
+              <span style={{ fontWeight: 600, fontSize: 14, color: '#d73d56' }}>India | UK | USA | Canada | Dubai</span>
             </div>
           </div>
         </div>
@@ -184,7 +184,7 @@ const About = () => {
       <GlobalOffices />
 
       {/* CTA */}
-      <section style={{ padding: '100px 24px', textAlign: 'center', position: 'relative', overflow: 'hidden', backgroundImage: 'url(https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1781930224/3459b5e6-3fdd-4c54-91dc-3f03db474df8_wpjfqi.png)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'scroll' }}>
+      <section style={{ padding: '100px 24px', textAlign: 'center', position: 'relative', overflow: 'hidden', backgroundImage: 'url(https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1781930224/3459b5e6-3fdd-4c54-91dc-3f03db474df8_wpjfqi.png)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'fixed' }}>
         <span style={{ fontSize: 12, letterSpacing: '0.4em', textTransform: 'uppercase', color: '#fff', display: 'block', marginBottom: 12, textShadow: '0 1px 4px rgba(0,0,0,0.4)' }}>Contact Our Team</span>
         <h2 style={{ fontSize: 'clamp(2rem, 4vw, 3rem)', fontWeight: 900, marginBottom: 16, fontFamily: 'var(--font-display)', color: '#fff', textShadow: '0 2px 8px rgba(0,0,0,0.5)' }}>
           Let's Build<br /><span style={{ color: '#d73d56' }}>Something <span className="font-display-italic">Powerful</span></span>

@@ -80,7 +80,7 @@ function ItcIndiaCaseStudy() {
       <section style={{
         position: 'relative', overflow: 'hidden', padding: '100px 24px 90px',
         textAlign: 'center',
-        backgroundImage: 'url(https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1782369230/AQMDjErmTbuNM_58JwAipBfWMd-3lZSeYdCL9WDimDXGhCTqbPIHQqFwWEuNW-9gBO2wGWpWveXZb0b7sPM0qFDI6yXw2yNh-QlLJE_WRi3unZuQvL2vlhwDr9qaQnFYi8Ez3M_YFEOxHNz4q6g3KiXNUUp_CA.jpeg_wbia8c.jpg)',
+        backgroundImage: 'url(https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_100/v1782369230/AQMDjErmTbuNM_58JwAipBfWMd-3lZSeYdCL9WDimDXGhCTqbPIHQqFwWEuNW-9gBO2wGWpWveXZb0b7sPM0qFDI6yXw2yNh-QlLJE_WRi3unZuQvL2vlhwDr9qaQnFYi8Ez3M_YFEOxHNz4q6g3KiXNUUp_CA.jpeg_wbia8c.jpg)',
         backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'scroll',
       }}>
         {/* Dark overlay */}

@@ -11,7 +11,7 @@ function CaseStudies() {
         <meta name="description" content="Explore how Digimarketing Art has helped brands transform their digital presence and achieve extraordinary growth through our case studies." />
         <meta name="keywords" content="case studies, digital marketing case studies, marketing success stories, portfolio, client results" />
       </Head>
-      <section style={{ padding: '120px 24px', textAlign: 'center', position: 'relative', overflow: 'hidden', backgroundImage: 'url(https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1782450236/AQPZBsgnP5kS4iazNp5X-e0yK6Y_-w0NFC2ACot9DJdrsmGivcbODzmFYC2_8-822-bvqtuoJkjjBr5-2Zz3CCZ0xuopLJtIEJQjk-p6Ub7fXb6hYmsAWRmYv3PkggGjWUzKYQyk7eBxfSDZ0PGzTHsfEsz5hw.jpeg_ym1z15.jpg)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'scroll' }}>
+      <section style={{ padding: '120px 24px', textAlign: 'center', position: 'relative', overflow: 'hidden', backgroundImage: 'url(https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_100/v1782450236/AQPZBsgnP5kS4iazNp5X-e0yK6Y_-w0NFC2ACot9DJdrsmGivcbODzmFYC2_8-822-bvqtuoJkjjBr5-2Zz3CCZ0xuopLJtIEJQjk-p6Ub7fXb6hYmsAWRmYv3PkggGjWUzKYQyk7eBxfSDZ0PGzTHsfEsz5hw.jpeg_ym1z15.jpg)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'scroll' }}>
         <div style={{ maxWidth: 800, margin: '0 auto', position: 'relative', zIndex: 1 }}>
           <span style={{ fontSize: 12, letterSpacing: '0.4em', textTransform: 'uppercase', color: '#fff', display: 'block', marginBottom: 16, fontWeight: 700, textShadow: '0 1px 4px rgba(0,0,0,0.4)' }}>
             OUR WORK
@@ -25,7 +25,7 @@ function CaseStudies() {
         </div>
       </section>
 
-      <section style={{ padding: '80px 24px', position: 'relative', overflow: 'hidden', backgroundImage: 'url(https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1781687554/AQPqEfQY7KCGO6l6kexc9wZecTTZRzmelId_ulbCzx807tMDAZmY4DXobBKYZObGjmIzJYK4Nz62tRkLCai8IxxQAESf_AJtC2Z_JbfEFO_zQIHgsFCLqSddIMq80Mnc5IhRJ54kG6fkvrc1GYQK24Fz9_tK-w.jpeg_kc4oh6.jpg)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'scroll' }}>
+      <section style={{ padding: '80px 24px', position: 'relative', overflow: 'hidden', backgroundImage: 'url(https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_100/v1781687554/AQPqEfQY7KCGO6l6kexc9wZecTTZRzmelId_ulbCzx807tMDAZmY4DXobBKYZObGjmIzJYK4Nz62tRkLCai8IxxQAESf_AJtC2Z_JbfEFO_zQIHgsFCLqSddIMq80Mnc5IhRJ54kG6fkvrc1GYQK24Fz9_tK-w.jpeg_kc4oh6.jpg)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'scroll' }}>
         <div style={{ position: 'absolute', inset: 0, background: 'rgba(255,255,255,0.85)', pointerEvents: 'none' }} />
         <div className="container" style={{ maxWidth: 1200, margin: '0 auto', position: 'relative', zIndex: 1 }}>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '32px' }}>

@@ -78,7 +78,7 @@ function SustainableFuturesCaseStudy() {
       <section style={{
         position: 'relative', overflow: 'hidden', padding: '100px 24px 90px',
         textAlign: 'center',
-        backgroundImage: 'url(https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1782372404/AQNhENxRnAgaeQqklDPgWzOtXxyIr5MxumHkop04_59UEzFvnpduM2ZqehHUwGN2kfDL97QctH518EqhjTdFlAUzV9kPDt3EDmYGlTmeq5PmlxqvnvFIVDlH904AuzU570dJ-suMWgH1PX22u_aI3qohN0u0kA.jpeg_auuvpc.jpg)',
+        backgroundImage: 'url(https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_100/v1782372404/AQNhENxRnAgaeQqklDPgWzOtXxyIr5MxumHkop04_59UEzFvnpduM2ZqehHUwGN2kfDL97QctH518EqhjTdFlAUzV9kPDt3EDmYGlTmeq5PmlxqvnvFIVDlH904AuzU570dJ-suMWgH1PX22u_aI3qohN0u0kA.jpeg_auuvpc.jpg)',
         backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'scroll',
       }}>
         {/* Dark overlay */}

@@ -78,7 +78,7 @@ function EurocertCaseStudy() {
       <section style={{
         position: 'relative', overflow: 'hidden', padding: '100px 24px 90px',
         textAlign: 'center',
-        backgroundImage: 'url(https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1782377452/AQO4fHOdJEi5KcQNjWtSDMJl3D8YC_klRsC9TjUDQD4qmuP26WgV3N-kbNkt88HZ-_-D1tpnyQj1ap7cmvh_ulUMlwvkS06W97WwOI52DoSsTy_zNoI_a2yAfp_pyNv578SDCN8R3bqGhrZw7XstLY_WEeTwXw.jpeg_u0tz1o.jpg)',
+        backgroundImage: 'url(https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_100/v1782377452/AQO4fHOdJEi5KcQNjWtSDMJl3D8YC_klRsC9TjUDQD4qmuP26WgV3N-kbNkt88HZ-_-D1tpnyQj1ap7cmvh_ulUMlwvkS06W97WwOI52DoSsTy_zNoI_a2yAfp_pyNv578SDCN8R3bqGhrZw7XstLY_WEeTwXw.jpeg_u0tz1o.jpg)',
         backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'scroll',
       }}>
         {/* Dark overlay */}

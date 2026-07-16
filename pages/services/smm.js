@@ -79,7 +79,7 @@ const Smm = () => {
         <meta name="keywords" content="SMM services, social media marketing, social media management, Facebook ads, Instagram marketing, LinkedIn marketing, social media strategy" />
       </Head>
       {/* Hero */}
-      <section style={{ padding: '100px 24px', backgroundImage: 'url(https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1782198381/AQOL9EB3-d9d4ANCmfOz2Bp2Hm_PaAHdxMuCbu4RN_Zr4Aokl3Rhj0trzJtiKNvVxGbW-4_FUeVvUn3aXLrw95CHoChbU8WOJsUCswqCyLtWuRCQau810J8GvtQmdpB67IDjoLaMm0Q-gfpG7i3VJzO2ATkg4w.jpeg_bbab1h.jpg)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundAttachment: 'scroll', position: 'relative', overflow: 'hidden' }}>
+      <section style={{ padding: '100px 24px', backgroundImage: 'url(https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1782198381/AQOL9EB3-d9d4ANCmfOz2Bp2Hm_PaAHdxMuCbu4RN_Zr4Aokl3Rhj0trzJtiKNvVxGbW-4_FUeVvUn3aXLrw95CHoChbU8WOJsUCswqCyLtWuRCQau810J8GvtQmdpB67IDjoLaMm0Q-gfpG7i3VJzO2ATkg4w.jpeg_bbab1h.jpg)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundAttachment: 'fixed', position: 'relative', overflow: 'hidden' }}>
         <div style={{ position: 'absolute', inset: 0, background: 'rgba(0,0,0,0.6)', pointerEvents: 'none' }} />
         <div style={stats && stats.length > 0 ? { maxWidth: 1100, margin: '0 auto', position: 'relative', zIndex: 1, display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 60, alignItems: 'center' } : { maxWidth: 800, margin: '0 auto', position: 'relative', zIndex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center' }}>
           <div style={stats && stats.length > 0 ? {} : { display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
@@ -168,7 +168,7 @@ const Smm = () => {
       {services.map((platform, idx) => {
         const Icon = platform.icon;
         return (
-          <section key={platform.title} id={platform.title.toLowerCase().replace(/[^a-z0-9]/g, '-')} style={{ padding: '80px 24px', background: idx % 2 === 0 ? 'var(--bg-secondary)' : 'var(--bg-primary)', borderTop: '1px solid var(--border-color)', ...((idx === 0 || idx === 2) && platform.image ? { position: 'relative', overflow: 'hidden', backgroundImage: `url(${platform.image})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundAttachment: 'scroll' } : {}) }}>
+          <section key={platform.title} id={platform.title.toLowerCase().replace(/[^a-z0-9]/g, '-')} style={{ padding: '80px 24px', background: idx % 2 === 0 ? 'var(--bg-secondary)' : 'var(--bg-primary)', borderTop: '1px solid var(--border-color)', ...((idx === 0 || idx === 2) && platform.image ? { position: 'relative', overflow: 'hidden', backgroundImage: `url(${platform.image})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundAttachment: 'fixed' } : {}) }}>
             {(idx === 0 || idx === 2) && platform.image && <div style={{ position: 'absolute', inset: 0, background: 'rgba(255, 255, 255, 0.5)', pointerEvents: 'none' }} />}
             <div style={{ maxWidth: 1100, margin: '0 auto', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 60, alignItems: 'center', position: 'relative', zIndex: 1 }}>
               <div style={{ order: idx % 2 === 0 ? 1 : 2, ...((idx === 0 || idx === 2) ? { background: 'rgba(255,255,255,0.9)', padding: '40px 36px', borderRadius: 20, boxShadow: '0 8px 32px rgba(0,0,0,0.08)' } : {}) }}>
@@ -282,7 +282,7 @@ const Smm = () => {
       </section>
 
       {/* CTA */}
-      <section style={{ padding: '100px 24px', textAlign: 'center', backgroundImage: 'url(https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1781687554/AQPqEfQY7KCGO6l6kexc9wZecTTZRzmelId_ulbCzx807tMDAZmY4DXobBKYZObGjmIzJYK4Nz62tRkLCai8IxxQAESf_AJtC2Z_JbfEFO_zQIHgsFCLqSddIMq80Mnc5IhRJ54kG6fkvrc1GYQK24Fz9_tK-w.jpeg_kc4oh6.jpg)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundAttachment: 'scroll', position: 'relative', overflow: 'hidden' }}>
+      <section style={{ padding: '100px 24px', textAlign: 'center', backgroundImage: 'url(https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1781687554/AQPqEfQY7KCGO6l6kexc9wZecTTZRzmelId_ulbCzx807tMDAZmY4DXobBKYZObGjmIzJYK4Nz62tRkLCai8IxxQAESf_AJtC2Z_JbfEFO_zQIHgsFCLqSddIMq80Mnc5IhRJ54kG6fkvrc1GYQK24Fz9_tK-w.jpeg_kc4oh6.jpg)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundAttachment: 'fixed', position: 'relative', overflow: 'hidden' }}>
         <div style={{ position: 'absolute', inset: 0, background: 'rgba(255,255,255,0.85)', pointerEvents: 'none' }} />
         <div style={{ position: 'relative', zIndex: 1, maxWidth: 700, margin: '0 auto' }}>
           <h2 style={{ fontSize: 'clamp(2rem, 4vw, 3rem)', fontWeight: 900, color: '#111', marginBottom: 16, fontFamily: 'var(--font-display)' }}>Ready to scale your business?</h2>

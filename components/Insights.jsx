@@ -7,7 +7,7 @@ function Insights() {
       subtitle: "The Traditional Funnel Is Dead. Here's What Replaced It.",
       category: "Marketing",
       date: "3 Min read",
-      slug: "funnel-stages",
+      slug: "if-your-funnel-still-has-stages-youre-already-behind",
       color: "#E8736F"
     },
     {
@@ -15,7 +15,7 @@ function Insights() {
       subtitle: "Ever scrolled through your Instagram feed and felt like a post was speaking directly to you?",
       category: "Marketing",
       date: "3 Min read",
-      slug: "social-media-whispering",
+      slug: "how-brands-are-secretly-whispering-to-you-on-social-media",
       color: "#8B76F8"
     },
     {
@@ -23,7 +23,7 @@ function Insights() {
       subtitle: "You've done everything right. The product is in the cart, the user clicks 'Proceed to Checkout,' and then… crickets.",
       category: "Marketing",
       date: "3 Min read",
-      slug: "cart-abandonment",
+      slug: "the-psychology-of-almost-buying-why-do-people-abandon-carts-and-forms",
       color: "#39B997"
     }
   ];

@@ -108,7 +108,7 @@ const ServicesPage = () => {
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
-        backgroundAttachment: 'scroll',
+        backgroundAttachment: 'fixed',
         overflow: 'hidden',
       }}>
         {/* Dark overlay */}
@@ -149,7 +149,7 @@ const ServicesPage = () => {
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
-        backgroundAttachment: 'scroll',
+        backgroundAttachment: 'fixed',
       }}>
         {/* Dark overlay so cards remain visible */}
         <div style={{ position: 'absolute', inset: 0, background: 'rgba(255,255,255,0.75)' }} />
@@ -211,7 +211,7 @@ const ServicesPage = () => {
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
-        backgroundAttachment: 'scroll',
+        backgroundAttachment: 'fixed',
       }}>
         {/* Dark overlay */}
         <div style={{ position: 'absolute', inset: 0, background: 'rgba(0,0,0,0.6)' }} />

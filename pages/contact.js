@@ -13,7 +13,7 @@ const Contact = () => {
         <meta name="keywords" content="contact digital marketing agency, digital marketing consultation, free marketing consultation, call digital marketing agency" />
       </Head>
       {/* Hero */}
-      <section style={{ padding: '120px 24px', textAlign: 'center', position: 'relative', overflow: 'hidden', backgroundImage: 'url(https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1781930881/14f2d9c1-80d8-4372-b59d-c6f6257eb20e_aietla.png)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+      <section style={{ padding: '120px 24px', textAlign: 'center', position: 'relative', overflow: 'hidden', backgroundImage: 'url(https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1781930881/14f2d9c1-80d8-4372-b59d-c6f6257eb20e_aietla.png)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'fixed' }}>
         <div style={{ position: 'absolute', inset: 0, background: 'rgba(0,0,0,0.6)', pointerEvents: 'none' }} />
         <div style={{ maxWidth: 800, margin: '0 auto', position: 'relative', zIndex: 1 }}>
           <span style={{ fontSize: 12, letterSpacing: '0.4em', textTransform: 'uppercase', color: '#fff', display: 'block', marginBottom: 16, textShadow: '0 1px 4px rgba(0,0,0,0.4)' }}>
@@ -39,7 +39,7 @@ const Contact = () => {
       {/* Schedule */}
       <section style={{ padding: '100px 24px', textAlign: 'center', position: 'relative', overflow: 'hidden' }}>
         <div style={{ position: 'absolute', inset: '-4px', backgroundImage: 'url(https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1781687554/AQPqEfQY7KCGO6l6kexc9wZecTTZRzmelId_ulbCzx807tMDAZmY4DXobBKYZObGjmIzJYK4Nz62tRkLCai8IxxQAESf_AJtC2Z_JbfEFO_zQIHgsFCLqSddIMq80Mnc5IhRJ54kG6fkvrc1GYQK24Fz9_tK-w.jpeg_kc4oh6.jpg)', backgroundSize: 'cover', backgroundPosition: 'center', filter: 'blur(6px)', pointerEvents: 'none' }} />
-        <div style={{ position: 'absolute', inset: 0, background: 'rgba(255,255,255,0.7)', pointerEvents: 'none' }} />
+        <div style={{ position: 'absolute', inset: 0, background: 'rgba(255,255,255,0.85)', pointerEvents: 'none' }} />
         <div style={{ maxWidth: 700, margin: '0 auto', position: 'relative', zIndex: 1 }}>
           <CalendarClock size={40} color="#d73d56" style={{ marginBottom: 16 }} />
           <h2 style={{ fontSize: 'clamp(1.5rem, 3vw, 2.5rem)', fontWeight: 900, fontFamily: 'var(--font-display)', marginBottom: 12, color: 'var(--text-primary)' }}>Book Your <span className="font-display-italic">Schedule</span> Now</h2>
@@ -53,7 +53,7 @@ const Contact = () => {
       <GlobalOffices />
 
       {/* Ready to Talk */}
-      <section style={{ padding: '100px 24px', position: 'relative', overflow: 'hidden', backgroundImage: 'url(https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1781931437/ddc30228-9410-49b5-8b51-63c2a63ebe4b_u8sjyf.png)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'scroll' }}>
+      <section style={{ padding: '100px 24px', position: 'relative', overflow: 'hidden', backgroundImage: 'url(https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1781931437/ddc30228-9410-49b5-8b51-63c2a63ebe4b_u8sjyf.png)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'fixed' }}>
         <div style={{ position: 'absolute', inset: 0, background: 'rgba(0,0,0,0.45)', pointerEvents: 'none' }} />
         <div className="responsive-two-column-grid" style={{ maxWidth: 1100, margin: '0 auto', position: 'relative', zIndex: 1 }}>
           <div>
