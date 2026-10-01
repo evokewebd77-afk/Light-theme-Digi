@@ -30,6 +30,16 @@ const Blogs = () => {
         <title>Blog - Digimarketing Art | Digital Marketing Insights</title>
         <meta name="description" content="Read the latest blogs from Digimarketing Art on digital marketing, SEO, PPC, social media, design, and AI-powered strategies to grow your business." />
         <meta name="keywords" content="digital marketing blog, marketing insights, SEO blog, PPC tips, social media marketing blog, digital marketing trends" />
+        <link rel="canonical" href="https://www.digimarketingart.com/blogs" />
+        <meta property="og:title" content="Blog - Digimarketing Art | Digital Marketing Insights" />
+        <meta property="og:description" content="Read the latest blogs from Digimarketing Art on digital marketing, SEO, PPC, social media, design, and AI-powered strategies." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.digimarketingart.com/blogs" />
+        <meta property="og:image" content="https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Blog - Digimarketing Art | Digital Marketing Insights" />
+        <meta name="twitter:description" content="Read the latest blogs from Digimarketing Art on digital marketing, SEO, PPC, social media, and AI-powered strategies." />
+        <meta name="twitter:image" content="https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" />
       </Head>
       {/* Hero */}
       <section style={{

@@ -36,6 +36,34 @@ function PlumbingServicesUsaCaseStudy() {
         <title>Plumbing Services USA - Lead Generation Case Study | Digimarketing Art</title>
         <meta name="description" content="Read how Digimarketing Art generated 70+ high-quality plumbing leads per month in the USA through targeted Google Ads, Bing Ads, and custom landing pages." />
         <meta name="keywords" content="plumbing lead generation, Google Ads plumbing, Bing Ads plumbing, digital marketing plumbing, local service ads" />
+        <link rel="canonical" href="https://www.digimarketingart.com/case-studies/plumbing-services-usa" />
+        <meta property="og:title" content="Plumbing Services USA - Lead Generation Case Study | Digimarketing Art" />
+        <meta property="og:description" content="Read how Digimarketing Art generated 70+ high-quality plumbing leads per month in the USA." />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="https://www.digimarketingart.com/case-studies/plumbing-services-usa" />
+        <meta property="og:image" content="https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Plumbing Services USA - Lead Generation Case Study | Digimarketing Art" />
+        <meta name="twitter:description" content="Read how Digimarketing Art generated 70+ high-quality plumbing leads per month in the USA." />
+        <meta name="twitter:image" content="https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Article",
+              "headline": "Plumbing Services USA - Lead Generation Case Study",
+              "description": "Read how Digimarketing Art generated 70+ high-quality plumbing leads per month.",
+              "author": { "@type": "Organization", "name": "Digimarketing Art" },
+              "publisher": {
+                "@type": "Organization",
+                "name": "Digimarketing Art",
+                "logo": { "@type": "ImageObject", "url": "https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" }
+              },
+              "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.digimarketingart.com/case-studies/plumbing-services-usa" }
+            })
+          }}
+        />
       </Head>
 
       {/* ─────────────────── GLOBAL ANIMATION STYLES ─────────────────── */}
@@ -309,6 +337,15 @@ function PlumbingServicesUsaCaseStudy() {
                 </div>
               ))}
             </div>
+          </div>
+
+          {/* ── CAMPAIGN VISUAL ── */}
+          <div className="plumbing-hover-card" style={{ marginBottom:24, borderRadius:24, overflow:'hidden', border:'1px solid var(--border-color)', boxShadow:'0 2px 24px rgba(0,0,0,0.04)' }}>
+            <img
+              src="/M1.png"
+              alt="Plumbing Services Campaign Performance"
+              style={{ width:'100%', height:'auto', display:'block', objectFit:'cover' }}
+            />
           </div>
 
           {/* ── WHY IT WORKED ── */}

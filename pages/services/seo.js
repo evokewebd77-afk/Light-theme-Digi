@@ -98,6 +98,29 @@ const Seo = () => {
         <title>SEO Services - Digimarketing Art | Search Engine Optimization</title>
         <meta name="description" content="Boost your online visibility with Digimarketing Art's SEO services. Keyword research, on-page optimization, technical SEO, link building & more." />
         <meta name="keywords" content="SEO services, search engine optimization, keyword research, on-page SEO, technical SEO, link building, local SEO, SEO company India" />
+        <link rel="canonical" href="https://www.digimarketingart.com/services/seo" />
+        <meta property="og:title" content="SEO Services - Digimarketing Art | Search Engine Optimization" />
+        <meta property="og:description" content="Boost your online visibility with Digimarketing Art's SEO services. Keyword research, on-page optimization, technical SEO, link building & more." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.digimarketingart.com/services/seo" />
+        <meta property="og:image" content="https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="SEO Services - Digimarketing Art | Search Engine Optimization" />
+        <meta name="twitter:description" content="Boost your online visibility with Digimarketing Art's SEO services." />
+        <meta name="twitter:image" content="https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Service",
+              "serviceType": "Search Engine Optimization",
+              "provider": { "@type": "Organization", "name": "Digimarketing Art", "url": "https://www.digimarketingart.com" },
+              "areaServed": { "@type": "Country", "name": "India" },
+              "description": "Boost your online visibility with Digimarketing Art's SEO services. Keyword research, on-page optimization, technical SEO, link building & more."
+            })
+          }}
+        />
       </Head>
       {/* Hero */}
       <section style={{ padding: '120px 24px', backgroundImage: `url('https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1782273011/AQNycmwYaYRurCoAPRB8wFSFcIrKJC3RM-eNMjtQdg8RtboEaoEflYG86z4K2JBLTDgfBWnjLBx5BqVxUgOOhhRf_ElATIgas-RgjAuMLC64KZrrJfWoE1CWtASAYQQbltx9tUI5q-8Fn60fgfoTgCTI_Llg2A.jpeg_lcht7b.jpg')`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', position: 'relative', overflow: 'hidden' }}>

@@ -91,6 +91,29 @@ const LeadGeneration = () => {
         <title>Lead Generation Services - Digimarketing Art</title>
         <meta name="description" content="Generate high-quality leads and boost conversions with Digimarketing Art's lead generation services. Multi-channel strategies for B2B and B2C." />
         <meta name="keywords" content="lead generation services, B2B lead generation, B2C lead generation, lead generation company, multi-channel lead generation" />
+        <link rel="canonical" href="https://www.digimarketingart.com/services/lead-generation" />
+        <meta property="og:title" content="Lead Generation Services - Digimarketing Art" />
+        <meta property="og:description" content="Generate high-quality leads and boost conversions with Digimarketing Art's lead generation services." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.digimarketingart.com/services/lead-generation" />
+        <meta property="og:image" content="https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Lead Generation Services - Digimarketing Art" />
+        <meta name="twitter:description" content="Generate high-quality leads and boost conversions with multi-channel strategies for B2B and B2C." />
+        <meta name="twitter:image" content="https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Service",
+              "serviceType": "Lead Generation",
+              "provider": { "@type": "Organization", "name": "Digimarketing Art", "url": "https://www.digimarketingart.com" },
+              "areaServed": { "@type": "Country", "name": "India" },
+              "description": "Generate high-quality leads and boost conversions with multi-channel strategies."
+            })
+          }}
+        />
       </Head>
       {/* Hero */}
       <section style={{ padding: '100px 24px', backgroundImage: 'url(https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1782199639/AQNRkqrYxXxnVwGn4L1xT3kcTQCpaG1rd_wFvlNoD389o6Lg_u_eK-nNASO8cQ2pqwVXii1-JrUYyHBCl9sH7G2lejb8D9B8wkzQ4mZHMcAZ6Mj8OvcZzfi406wGC_blEwf118p8oR55c5Jjn-kbHmq5udS5ng.jpeg_biejic.jpg)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundAttachment: 'fixed', position: 'relative', overflow: 'hidden' }}>

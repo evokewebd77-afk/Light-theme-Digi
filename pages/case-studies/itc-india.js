@@ -36,6 +36,34 @@ function ItcIndiaCaseStudy() {
         <title>ITC India - Case Study | Digimarketing Art</title>
         <meta name="description" content="See how Digimarketing Art helped ITC India with digital marketing strategies to enhance their online presence and drive measurable results." />
         <meta name="keywords" content="ITC India case study, digital marketing case study, brand success story, marketing results" />
+        <link rel="canonical" href="https://www.digimarketingart.com/case-studies/itc-india" />
+        <meta property="og:title" content="ITC India - Case Study | Digimarketing Art" />
+        <meta property="og:description" content="See how Digimarketing Art helped ITC India with digital marketing strategies to enhance their online presence and drive measurable results." />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="https://www.digimarketingart.com/case-studies/itc-india" />
+        <meta property="og:image" content="https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="ITC India - Case Study | Digimarketing Art" />
+        <meta name="twitter:description" content="See how Digimarketing Art helped ITC India with digital marketing strategies to drive measurable results." />
+        <meta name="twitter:image" content="https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Article",
+              "headline": "ITC India - Case Study",
+              "description": "See how Digimarketing Art helped ITC India with digital marketing strategies to enhance their online presence and drive measurable results.",
+              "author": { "@type": "Organization", "name": "Digimarketing Art" },
+              "publisher": {
+                "@type": "Organization",
+                "name": "Digimarketing Art",
+                "logo": { "@type": "ImageObject", "url": "https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" }
+              },
+              "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.digimarketingart.com/case-studies/itc-india" }
+            })
+          }}
+        />
       </Head>
 
       {/* ─────────────────── GLOBAL ANIMATION STYLES ─────────────────── */}
@@ -113,7 +141,7 @@ function ItcIndiaCaseStudy() {
             fontFamily:'var(--font-display)', color:'#fff',
             lineHeight:1.1, marginBottom:20, letterSpacing:'-0.02em',
           }}>
-            How We Increased ITC India's<br />
+            How We Increased <span style={{ color:BLUE }}>ITC India's</span><br />
             Qualified Leads by{' '}
             <span style={{
               color:BLUE, position:'relative', display:'inline-block',
@@ -177,8 +205,17 @@ function ItcIndiaCaseStudy() {
 
             {/* About */}
             <div className="itc-hover-card" style={card()}>
-              <span style={label()}>About The Client</span>
-              <h2 style={h2({ marginBottom:10 })}>Client Overview</h2>
+              <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between', marginBottom:12 }}>
+                <div>
+                  <span style={label()}>About The Client</span>
+                  <h2 style={h2({ marginBottom:0 })}>Client Overview</h2>
+                </div>
+                <img
+                  src="https://res.cloudinary.com/didtfhfme/image/upload/v1779180782/itc_mhm3ld.webp"
+                  alt="ITC India"
+                  style={{ width:85, height:85, borderRadius:12, objectFit:'contain', flexShrink:0 }}
+                />
+              </div>
               <p style={p({ marginBottom:12 })}>ITC India is a <strong>leading product testing and certification company</strong> that helps manufacturers meet national and international compliance requirements.</p>
               <p style={p({ marginBottom:12 })}>While they had an online presence and active Google Ads campaigns, they weren't generating enough qualified business inquiries, and their website had limited visibility in organic search.</p>
               <p style={p({ marginBottom:16 })}><strong>Website:</strong> <a href="https://www.itcindia.org/" target="_blank" rel="noopener noreferrer" style={{ color:BLUE }}>https://www.itcindia.org/</a></p>
@@ -372,6 +409,15 @@ function ItcIndiaCaseStudy() {
                 ))}
               </div>
             </div>
+          </div>
+
+          {/* ── ITC IMAGE ── */}
+          <div className="itc-hover-card" style={{ ...card({ marginBottom:20 }), padding:0, overflow:'hidden' }}>
+            <img
+              src="/itc.png"
+              alt="ITC India Case Study"
+              style={{ width:'100%', height:'auto', display:'block' }}
+            />
           </div>
 
           {/* ── BUSINESS IMPACT ── */}

@@ -77,6 +77,29 @@ const Smm = () => {
         <title>SMM Services - Digimarketing Art | Social Media Marketing</title>
         <meta name="description" content="Grow your brand awareness and engagement with Digimarketing Art's social media marketing services. Strategy, content creation, community management & ads." />
         <meta name="keywords" content="SMM services, social media marketing, social media management, Facebook ads, Instagram marketing, LinkedIn marketing, social media strategy" />
+        <link rel="canonical" href="https://www.digimarketingart.com/services/smm" />
+        <meta property="og:title" content="SMM Services - Digimarketing Art | Social Media Marketing" />
+        <meta property="og:description" content="Grow your brand awareness and engagement with Digimarketing Art's social media marketing services." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.digimarketingart.com/services/smm" />
+        <meta property="og:image" content="https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="SMM Services - Digimarketing Art | Social Media Marketing" />
+        <meta name="twitter:description" content="Grow your brand awareness and engagement with Digimarketing Art's social media marketing services." />
+        <meta name="twitter:image" content="https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Service",
+              "serviceType": "Social Media Marketing",
+              "provider": { "@type": "Organization", "name": "Digimarketing Art", "url": "https://www.digimarketingart.com" },
+              "areaServed": { "@type": "Country", "name": "India" },
+              "description": "Grow your brand awareness and engagement with Digimarketing Art's social media marketing services."
+            })
+          }}
+        />
       </Head>
       {/* Hero */}
       <section style={{ padding: '100px 24px', backgroundImage: 'url(https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1782198381/AQOL9EB3-d9d4ANCmfOz2Bp2Hm_PaAHdxMuCbu4RN_Zr4Aokl3Rhj0trzJtiKNvVxGbW-4_FUeVvUn3aXLrw95CHoChbU8WOJsUCswqCyLtWuRCQau810J8GvtQmdpB67IDjoLaMm0Q-gfpG7i3VJzO2ATkg4w.jpeg_bbab1h.jpg)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundAttachment: 'fixed', position: 'relative', overflow: 'hidden' }}>

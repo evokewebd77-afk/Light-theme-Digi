@@ -1,8 +1,35 @@
 import Head from 'next/head';
 import React from 'react';
-import { MapPin, Phone, Mail, CheckCircle, Download, Target, Eye, TrendingUp, MousePointerClick, DollarSign, Users, Star, ArrowUp } from 'lucide-react';
+import { MapPin, Phone, Mail, CheckCircle, Download, Target, Eye, TrendingUp, MousePointerClick, DollarSign, Users, Star, ArrowUp, CheckCircle2, ArrowUpRight, Zap } from 'lucide-react';
 import GlobalOffices from '../components/GlobalOffices';
 import ContactForm from '../components/ContactForm';
+
+const aboutContactInfo = [
+  {
+    icon: Phone,
+    label: 'Direct Phone',
+    value: '+91-90565-44487',
+    href: 'tel:+919056544487',
+    sub: 'Instant consultation • Mon-Sat',
+    accent: '#d73d56',
+  },
+  {
+    icon: Mail,
+    label: 'Email Inquiries',
+    value: 'info@digimarketingart.com',
+    href: 'mailto:info@digimarketingart.com',
+    sub: 'Average response: < 2 hours',
+    accent: '#1D8DCA',
+  },
+  {
+    icon: MapPin,
+    label: 'Headquarters',
+    value: 'SCO 09, Aero View Plaza, Airport Rd, Mohali',
+    href: 'https://maps.google.com/?q=Aero+View+Plaza+Mohali',
+    sub: 'Punjab - 140603, India',
+    accent: '#3A8C3A',
+  },
+];
 
 const stats = [
   { value: '15+', label: 'Years Experience' },
@@ -29,12 +56,76 @@ const whyChooseUs = [
 ];
 
 const About = () => {
+  const aboutLeftPanel = (
+    <div className="contact-info-container">
+      <div className="contact-info-header">
+        <span className="contact-info-badge">
+          <Zap size={13} color="#d73d56" /> Ready to Scale?
+        </span>
+        <h3 className="contact-info-title">Let’s Talk Growth & Strategy</h3>
+        <p className="contact-info-desc">
+          Reach our performance marketing team directly or send us your campaign specs for an immediate ROI review.
+        </p>
+      </div>
+
+      <div className="contact-cards-list">
+        {aboutContactInfo.map((item, i) => {
+          const Icon = item.icon;
+          return (
+            <a
+              key={i}
+              href={item.href}
+              className="contact-card-modern"
+              target={item.href.startsWith('http') ? '_blank' : undefined}
+              rel={item.href.startsWith('http') ? 'noopener noreferrer' : undefined}
+            >
+              <div className="contact-card-icon" style={{ '--card-icon-accent': item.accent }}>
+                <Icon size={20} />
+              </div>
+              <div className="contact-card-content">
+                <span className="contact-card-label">{item.label}</span>
+                <span className="contact-card-val">{item.value}</span>
+                <span className="contact-card-sub">{item.sub}</span>
+              </div>
+              <ArrowUpRight size={18} className="contact-card-arrow" />
+            </a>
+          );
+        })}
+      </div>
+
+      <div className="contact-perks-box">
+        <div className="contact-perk-item">
+          <CheckCircle2 size={16} color="#d73d56" />
+          <span>Free performance & SEO growth audit</span>
+        </div>
+        <div className="contact-perk-item">
+          <CheckCircle2 size={16} color="#d73d56" />
+          <span>Dedicated senior account manager</span>
+        </div>
+        <div className="contact-perk-item">
+          <CheckCircle2 size={16} color="#d73d56" />
+          <span>No lock-in contracts • Transparent KPIs</span>
+        </div>
+      </div>
+    </div>
+  );
+
   return (
     <div style={{ paddingTop: '100px' }}>
       <Head>
         <title>About Us - Digimarketing Art | Digital Marketing Agency</title>
         <meta name="description" content="Learn about Digimarketing Art - 15+ years of experience, 500+ clients served, 6 global offices. AI-powered digital marketing agency driving growth." />
         <meta name="keywords" content="about digital marketing agency, digital marketing company India, AI marketing agency, marketing agency Mohali" />
+        <link rel="canonical" href="https://www.digimarketingart.com/about" />
+        <meta property="og:title" content="About Us - Digimarketing Art | Digital Marketing Agency" />
+        <meta property="og:description" content="Learn about Digimarketing Art - 15+ years of experience, 500+ clients served, 6 global offices. AI-powered digital marketing agency driving growth." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.digimarketingart.com/about" />
+        <meta property="og:image" content="https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="About Us - Digimarketing Art | Digital Marketing Agency" />
+        <meta name="twitter:description" content="Learn about Digimarketing Art - 15+ years of experience, 500+ clients served, 6 global offices. AI-powered digital marketing agency driving growth." />
+        <meta name="twitter:image" content="https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" />
       </Head>
       {/* Hero */}
       <section style={{ padding: '120px 24px', textAlign: 'center', position: 'relative', overflow: 'hidden', backgroundImage: 'url(https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1781929713/40277f48-6fe5-4471-8859-c50393224a21_tshgxe.png)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'fixed' }}>
@@ -183,37 +274,13 @@ const About = () => {
 
       <GlobalOffices />
 
-      {/* CTA */}
-      <section style={{ padding: '100px 24px', textAlign: 'center', position: 'relative', overflow: 'hidden', backgroundImage: 'url(https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1781930224/3459b5e6-3fdd-4c54-91dc-3f03db474df8_wpjfqi.png)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'fixed' }}>
-        <span style={{ fontSize: 12, letterSpacing: '0.4em', textTransform: 'uppercase', color: '#fff', display: 'block', marginBottom: 12, textShadow: '0 1px 4px rgba(0,0,0,0.4)' }}>Contact Our Team</span>
-        <h2 style={{ fontSize: 'clamp(2rem, 4vw, 3rem)', fontWeight: 900, marginBottom: 16, fontFamily: 'var(--font-display)', color: '#fff', textShadow: '0 2px 8px rgba(0,0,0,0.5)' }}>
-          Let's Build<br /><span style={{ color: '#d73d56' }}>Something <span className="font-display-italic">Powerful</span></span>
-        </h2>
-        <p style={{ color: '#fff', marginBottom: 40, fontSize: 16, maxWidth: 500, margin: '0 auto 40px', textShadow: '0 1px 4px rgba(0,0,0,0.4)', fontWeight: 700 }}>
-          Connect with our global offices and expert team to start scaling your business digitally.
-        </p>
-        <div style={{ display: 'flex', justifyContent: 'center', gap: 24, flexWrap: 'wrap', marginBottom: 48 }}>
-          <div style={{ background: 'rgba(0,0,0,0.45)', backdropFilter: 'blur(8px)', borderRadius: 16, padding: '20px 28px', minWidth: 180 }}>
-            <Phone size={20} color="#d73d56" style={{ marginBottom: 8 }} />
-            <p style={{ fontSize: 12, color: 'rgba(255,255,255,0.9)', textTransform: 'uppercase', letterSpacing: '0.1em' }}>Call Us</p>
-            <a href="tel:+919056544487" style={{ color: '#fff', fontWeight: 700, textDecoration: 'none', fontSize: 15 }}>+91-90565-44487</a>
-          </div>
-          <div style={{ background: 'rgba(0,0,0,0.45)', backdropFilter: 'blur(8px)', borderRadius: 16, padding: '20px 28px', minWidth: 180 }}>
-            <Mail size={20} color="#d73d56" style={{ marginBottom: 8 }} />
-            <p style={{ fontSize: 12, color: 'rgba(255,255,255,0.9)', textTransform: 'uppercase', letterSpacing: '0.1em' }}>Email Us</p>
-            <a href="mailto:info@digimarketingart.com" style={{ color: '#fff', fontWeight: 700, textDecoration: 'none', fontSize: 15 }}>info@digimarketingart.com</a>
-          </div>
-          <div style={{ background: 'rgba(0,0,0,0.45)', backdropFilter: 'blur(8px)', borderRadius: 16, padding: '20px 28px', minWidth: 180 }}>
-            <MapPin size={20} color="#d73d56" style={{ marginBottom: 8 }} />
-            <p style={{ fontSize: 12, color: 'rgba(255,255,255,0.9)', textTransform: 'uppercase', letterSpacing: '0.1em' }}>Main Office</p>
-            <span style={{ fontWeight: 700, fontSize: 15, color: '#fff' }}>Aero View Plaza, Mohali, Punjab</span>
-          </div>
-        </div>
-        {/* Contact Form */}
-        <div style={{ maxWidth: 600, margin: '0 auto', background: 'transparent', border: 'none', borderRadius: 0, padding: 0, textAlign: 'left' }}>
-          <ContactForm standalone appScriptUrl="https://script.google.com/macros/s/AKfycbz4ql2DSw3vG9jMW0SjWlTQJhNiPhj7tEC1yNKfc5FLRWLZFadavYLrbusC0jTk7nmx/exec" />
-        </div>
-      </section>
+      {/* Contact Section */}
+      <ContactForm
+        leftPanel={aboutLeftPanel}
+        bgImage="https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1781930224/3459b5e6-3fdd-4c54-91dc-3f03db474df8_wpjfqi.png"
+        darkOverlay={true}
+        appScriptUrl="https://script.google.com/macros/s/AKfycbz4ql2DSw3vG9jMW0SjWlTQJhNiPhj7tEC1yNKfc5FLRWLZFadavYLrbusC0jTk7nmx/exec"
+      />
 
 
 

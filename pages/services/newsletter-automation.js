@@ -44,6 +44,29 @@ const NewsletterAutomation = () => {
         <title>Newsletter Automation Services - Digimarketing Art</title>
         <meta name="description" content="AI-powered newsletter automation to scale your reach. Digimarketing Art creates personalized, automated email campaigns that drive engagement." />
         <meta name="keywords" content="newsletter automation, email marketing, AI email campaigns, automated newsletters, email automation, email marketing agency" />
+        <link rel="canonical" href="https://www.digimarketingart.com/services/newsletter-automation" />
+        <meta property="og:title" content="Newsletter Automation Services - Digimarketing Art" />
+        <meta property="og:description" content="AI-powered newsletter automation to scale your reach. Personalized, automated email campaigns that drive engagement." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.digimarketingart.com/services/newsletter-automation" />
+        <meta property="og:image" content="https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Newsletter Automation Services - Digimarketing Art" />
+        <meta name="twitter:description" content="AI-powered newsletter automation to scale your reach. Personalized, automated email campaigns." />
+        <meta name="twitter:image" content="https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Service",
+              "serviceType": "Newsletter Automation",
+              "provider": { "@type": "Organization", "name": "Digimarketing Art", "url": "https://www.digimarketingart.com" },
+              "areaServed": { "@type": "Country", "name": "India" },
+              "description": "AI-powered newsletter automation to scale your reach."
+            })
+          }}
+        />
       </Head>
       <section style={{ padding: '120px 24px', backgroundImage: 'url(https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1782446648/AQNrGT8lTfFTj_y3LiYNH_c0IT1ZBJRDz-_VGotPkNT_EenaBfJ5v96LbtCR0wXwkl82ejlefwltVpPCDUsb1YBxvwK7RLuVbtj4nFw4eP92_2_dEAutap8NYHy8q1ERPiZ33E_xTajcFOHuERaj51368nkBWg.jpeg_azttjn.jpg)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', position: 'relative', overflow: 'hidden' }}>
         <div style={{ position: 'absolute', inset: 0, background: 'rgba(0,0,0,0.6)', pointerEvents: 'none' }} />

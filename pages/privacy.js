@@ -53,6 +53,16 @@ const Privacy = () => {
         <title>Privacy Policy - Digimarketing Art</title>
         <meta name="description" content="Privacy Policy of Digimarketing Art. Learn how we collect, use, and protect your personal data in compliance with applicable regulations." />
         <meta name="keywords" content="privacy policy, data privacy, data protection, GDPR, privacy policy digital marketing" />
+        <link rel="canonical" href="https://www.digimarketingart.com/privacy" />
+        <meta property="og:title" content="Privacy Policy - Digimarketing Art" />
+        <meta property="og:description" content="Privacy Policy of Digimarketing Art. Learn how we collect, use, and protect your personal data in compliance with applicable regulations." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.digimarketingart.com/privacy" />
+        <meta property="og:image" content="https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Privacy Policy - Digimarketing Art" />
+        <meta name="twitter:description" content="Privacy Policy of Digimarketing Art. Learn how we collect, use, and protect your personal data." />
+        <meta name="twitter:image" content="https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" />
       </Head>
       <div style={{ position: 'absolute', inset: 0, background: 'rgba(247, 246, 243, 0.85)', zIndex: 0 }} />
       <div style={{ position: 'relative', zIndex: 1 }}>

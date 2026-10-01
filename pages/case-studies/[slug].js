@@ -11,6 +11,7 @@ import PlumbingServicesUsaCaseStudy from './plumbing-services-usa';
 import PlasticSurgeryCaseStudy from './plastic-surgery-clinic';
 import MedDevicesCaseStudy from './meddevices';
 import EurotechWorldCaseStudy from './eurotech-world';
+import FingersOnKeysCaseStudy from './fingers-on-keys';
 
 const caseStudyPages = {
   'itc-india': ItcIndiaCaseStudy,
@@ -20,6 +21,7 @@ const caseStudyPages = {
   'plastic-surgery-clinic': PlasticSurgeryCaseStudy,
   'meddevices': MedDevicesCaseStudy,
   'eurotech-world': EurotechWorldCaseStudy,
+  'fingers-on-keys': FingersOnKeysCaseStudy,
 };
 
 function CaseStudyDetail({ project, slug }) {
@@ -57,6 +59,29 @@ function CaseStudyDetail({ project, slug }) {
         <meta property="og:type" content="article" />
         <meta property="og:url" content={`https://www.digimarketingart.com/case-studies/${project.slug}`} />
         <meta property="og:image" content={project.image} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={project.title} />
+        <meta name="twitter:description" content={project.description} />
+        <meta name="twitter:image" content={project.image} />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Article",
+              "headline": project.title,
+              "description": project.description,
+              "author": { "@type": "Organization", "name": "Digimarketing Art" },
+              "publisher": {
+                "@type": "Organization",
+                "name": "Digimarketing Art",
+                "logo": { "@type": "ImageObject", "url": "https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" }
+              },
+              "mainEntityOfPage": { "@type": "WebPage", "@id": `https://www.digimarketingart.com/case-studies/${project.slug}` },
+              "image": project.image
+            })
+          }}
+        />
       </Head>
       <section style={{ padding: '120px 24px', textAlign: 'center', position: 'relative', overflow: 'hidden', backgroundImage: `url(${project.image})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'scroll' }}>
         <div style={{ position: 'absolute', inset: 0, background: 'rgba(0,0,0,0.7)', pointerEvents: 'none' }} />
@@ -97,7 +122,7 @@ function CaseStudyDetail({ project, slug }) {
 }
 
 export async function getStaticPaths() {
-  const staticSlugs = ['itc-india', 'sustainable-futures', 'eurocert', 'plumbing-services-usa', 'plastic-surgery-clinic', 'meddevices', 'eurotech-world'];
+  const staticSlugs = ['itc-india', 'sustainable-futures', 'eurocert', 'plumbing-services-usa', 'plastic-surgery-clinic', 'meddevices', 'eurotech-world', 'fingers-on-keys'];
   const paths = projects
     .filter((p) => !staticSlugs.includes(p.slug))
     .map((p) => ({

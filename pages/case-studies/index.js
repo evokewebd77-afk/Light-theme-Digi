@@ -10,6 +10,16 @@ function CaseStudies() {
         <title>Case Studies - Digimarketing Art | Our Work</title>
         <meta name="description" content="Explore how Digimarketing Art has helped brands transform their digital presence and achieve extraordinary growth through our case studies." />
         <meta name="keywords" content="case studies, digital marketing case studies, marketing success stories, portfolio, client results" />
+        <link rel="canonical" href="https://www.digimarketingart.com/case-studies" />
+        <meta property="og:title" content="Case Studies - Digimarketing Art | Our Work" />
+        <meta property="og:description" content="Explore how Digimarketing Art has helped brands transform their digital presence and achieve extraordinary growth." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.digimarketingart.com/case-studies" />
+        <meta property="og:image" content="https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Case Studies - Digimarketing Art | Our Work" />
+        <meta name="twitter:description" content="Explore how Digimarketing Art has helped brands transform their digital presence and achieve extraordinary growth." />
+        <meta name="twitter:image" content="https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" />
       </Head>
       <section style={{ padding: '120px 24px', textAlign: 'center', position: 'relative', overflow: 'hidden', backgroundImage: 'url(https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_100/v1782450236/AQPZBsgnP5kS4iazNp5X-e0yK6Y_-w0NFC2ACot9DJdrsmGivcbODzmFYC2_8-822-bvqtuoJkjjBr5-2Zz3CCZ0xuopLJtIEJQjk-p6Ub7fXb6hYmsAWRmYv3PkggGjWUzKYQyk7eBxfSDZ0PGzTHsfEsz5hw.jpeg_ym1z15.jpg)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'scroll' }}>
         <div style={{ maxWidth: 800, margin: '0 auto', position: 'relative', zIndex: 1 }}>
@@ -25,13 +35,16 @@ function CaseStudies() {
         </div>
       </section>
 
-      <section style={{ padding: '80px 24px', position: 'relative', overflow: 'hidden', backgroundImage: 'url(https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_100/v1781687554/AQPqEfQY7KCGO6l6kexc9wZecTTZRzmelId_ulbCzx807tMDAZmY4DXobBKYZObGjmIzJYK4Nz62tRkLCai8IxxQAESf_AJtC2Z_JbfEFO_zQIHgsFCLqSddIMq80Mnc5IhRJ54kG6fkvrc1GYQK24Fz9_tK-w.jpeg_kc4oh6.jpg)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'scroll' }}>
+
+ <section style={{ padding: '80px 24px', position: 'relative', overflow: 'hidden', backgroundImage: 'url(https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_100/v1781687554/AQPqEfQY7KCGO6l6kexc9wZecTTZRzmelId_ulbCzx807tMDAZmY4DXobBKYZObGjmIzJYK4Nz62tRkLCai8IxxQAESf_AJtC2Z_JbfEFO_zQIHgsFCLqSddIMq80Mnc5IhRJ54kG6fkvrc1GYQK24Fz9_tK-w.jpeg_kc4oh6.jpg)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'scroll' }}>
         <div style={{ position: 'absolute', inset: 0, background: 'rgba(255,255,255,0.85)', pointerEvents: 'none' }} />
         <div className="container" style={{ maxWidth: 1200, margin: '0 auto', position: 'relative', zIndex: 1 }}>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '32px' }}>
             {projects.map((project) => (
               <div key={project.id} style={{ background: 'var(--bg-secondary)', borderRadius: '24px', overflow: 'hidden', border: '1px solid var(--border-color)', display: 'flex', flexDirection: 'column', boxShadow: '0 12px 30px rgba(0,0,0,0.04)' }}>
-                <div style={{ height: '180px', background: `url(${project.image}) center/cover no-repeat` }} />
+                <div style={{ height: '180px', overflow: 'hidden' }}>
+                  <img src={project.image} alt={project.title} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                </div>
                 <div style={{ padding: '24px', display: 'flex', flexDirection: 'column', flex: 1 }}>
                   <span style={{ fontSize: '12px', fontWeight: 600, color: '#d73d56', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '8px' }}>
                     {project.category}

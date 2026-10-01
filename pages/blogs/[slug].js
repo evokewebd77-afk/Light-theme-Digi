@@ -115,7 +115,34 @@ const BlogDetail = ({ post }) => {
         <meta property="og:description" content={post.excerpt} />
         <meta property="og:type" content="article" />
         <meta property="og:url" content={`https://www.digimarketingart.com/blogs/${post.slug}`} />
-        <meta property="og:image" content="https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" />
+        <meta property="og:image" content={post.image || "https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png"} />
+        <meta property="article:published_time" content={post.date} />
+        <meta property="article:author" content={post.author} />
+        <meta property="article:section" content={post.category} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={post.title} />
+        <meta name="twitter:description" content={post.excerpt} />
+        <meta name="twitter:image" content={post.image || "https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png"} />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Article",
+              "headline": post.title,
+              "description": post.excerpt,
+              "author": { "@type": "Organization", "name": "Digimarketing Art" },
+              "publisher": {
+                "@type": "Organization",
+                "name": "Digimarketing Art",
+                "logo": { "@type": "ImageObject", "url": "https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" }
+              },
+              "datePublished": post.date,
+              "mainEntityOfPage": { "@type": "WebPage", "@id": `https://www.digimarketingart.com/blogs/${post.slug}` },
+              "image": post.image || "https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png"
+            })
+          }}
+        />
       </Head>
       <div style={{ position: 'absolute', inset: 0, background: 'rgba(247, 246, 243, 0.85)', pointerEvents: 'none' }} />
       <style>{`

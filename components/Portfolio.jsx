@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useCallback } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import Link from 'next/link';
 import { projects } from '../data/projectsData';
@@ -24,13 +24,13 @@ function Portfolio() {
 
   const maxSlide = Math.max(0, projects.length - visibleSlides);
 
-  const nextSlide = () => {
+  const nextSlide = useCallback(() => {
     setActiveSlide((prev) => (prev >= maxSlide ? 0 : prev + 1));
-  };
+  }, [maxSlide]);
 
-  const prevSlide = () => {
+  const prevSlide = useCallback(() => {
     setActiveSlide((prev) => (prev <= 0 ? maxSlide : prev - 1));
-  };
+  }, [maxSlide]);
 
   const goToSlide = (index) => {
     if (index > maxSlide) index = maxSlide;

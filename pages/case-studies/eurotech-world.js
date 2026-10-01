@@ -31,9 +31,37 @@ function EurotechWorldCaseStudy() {
   return (
     <div style={{ paddingTop: 96 }}>
       <Head>
-        <title>Eurotech World - Lead Generation Case Study | Digimarketing Art</title>
+        <title>Eurotech World (India, Canada) - Lead Generation Case Study | Digimarketing Art</title>
         <meta name="description" content="Read how Digimarketing Art helped Eurotech World Assessment & Certification Services generate 100+ qualified inquiries through Google Ads and dedicated landing pages." />
         <meta name="keywords" content="certification marketing, training institute marketing, Google Ads for certification, lead generation, B2B digital marketing, eurotech world" />
+        <link rel="canonical" href="https://www.digimarketingart.com/case-studies/eurotech-world" />
+        <meta property="og:title" content="Eurotech World - Lead Generation Case Study | Digimarketing Art" />
+        <meta property="og:description" content="Read how Digimarketing Art helped Eurotech World generate 100+ qualified inquiries through Google Ads." />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="https://www.digimarketingart.com/case-studies/eurotech-world" />
+        <meta property="og:image" content="https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Eurotech World - Lead Generation Case Study | Digimarketing Art" />
+        <meta name="twitter:description" content="Read how Digimarketing Art helped Eurotech World generate 100+ qualified inquiries." />
+        <meta name="twitter:image" content="https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Article",
+              "headline": "Eurotech World - Lead Generation Case Study",
+              "description": "Read how Digimarketing Art helped Eurotech World generate 100+ qualified inquiries.",
+              "author": { "@type": "Organization", "name": "Digimarketing Art" },
+              "publisher": {
+                "@type": "Organization",
+                "name": "Digimarketing Art",
+                "logo": { "@type": "ImageObject", "url": "https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" }
+              },
+              "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.digimarketingart.com/case-studies/eurotech-world" }
+            })
+          }}
+        />
       </Head>
 
       <style>{`
@@ -84,7 +112,7 @@ function EurotechWorldCaseStudy() {
             How Digital Advertisement Makeeting Network Helped <span style={{
               color:THEME_COLOR, position:'relative', display:'inline-block',
               textShadow:`0 0 40px rgba(37,99,235,0.6)`,
-            }}>Eurotech World Generate Over 100 Qualified Inquiries</span> Through Digital Marketing
+            }}>Eurotech World (India, Canada) Generate Over 100 Qualified Inquiries</span> Through Digital Marketing
           </h1>
 
           <p style={{ fontSize:16, color:'rgba(255,255,255,0.72)', maxWidth:760, margin:'0 auto 36px', lineHeight:1.7 }}>
@@ -132,14 +160,24 @@ function EurotechWorldCaseStudy() {
           </Link>
 
           <div className="ew-hover-card" style={card({ marginBottom:24 })}>
-            <span style={label()}>Client Overview</span>
-            <h2 style={h2()}>About Eurotech World</h2>
+            <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between', marginBottom:12 }}>
+              <div>
+                <span style={label()}>Client Overview</span>
+                <h2 style={h2({ marginBottom:0 })}>About Eurotech World (India, Canada)</h2>
+              </div>
+              <img
+                src="https://res.cloudinary.com/didtfhfme/image/upload/v1779180773/eurotech_pdhehu.webp"
+                alt="EuroTech World"
+                style={{ width:85, height:85, borderRadius:12, objectFit:'contain', flexShrink:0 }}
+              />
+            </div>
             <p style={p({ marginBottom:20 })}>
               Eurotech World Assessment & Certification Services Pvt. Ltd. is a leading provider of certification, inspection, training, and assessment services. The company offers internationally recognized certification solutions alongside industry-focused training programs that help professionals and organizations improve their skills, compliance, and career opportunities.
             </p>
             <p style={p({ marginBottom:20 })}>
               Their services include certification programs, CE Certification consulting, welding training, robotic welding training, plumbing training, and various technical and industrial skill development courses.
             </p>
+            <p style={p({ marginBottom:16 })}><strong>Website:</strong> <a href="https://www.eurotechworld.net/" target="_blank" rel="noopener noreferrer" style={{ color: THEME_COLOR }}>https://www.eurotechworld.net/</a></p>
             <p style={p({ marginBottom:20 })}>
               To strengthen their online presence and generate a consistent flow of qualified leads, Digital Advertisement Makeeting Network partnered with Eurotech World to build a performance-driven digital marketing system focused on lead generation and brand awareness.
             </p>

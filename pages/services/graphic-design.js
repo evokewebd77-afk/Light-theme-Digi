@@ -91,6 +91,29 @@ const GraphicDesign = () => {
         <title>Graphic Design Services - Digimarketing Art</title>
         <meta name="description" content="Eye-catching visual designs that communicate your brand message. Digimarketing Art offers logo design, branding, social media graphics & more." />
         <meta name="keywords" content="graphic design services, logo design, branding, social media graphics, visual design, brand identity design" />
+        <link rel="canonical" href="https://www.digimarketingart.com/services/graphic-design" />
+        <meta property="og:title" content="Graphic Design Services - Digimarketing Art" />
+        <meta property="og:description" content="Eye-catching visual designs that communicate your brand message. Digimarketing Art offers logo design, branding, social media graphics & more." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.digimarketingart.com/services/graphic-design" />
+        <meta property="og:image" content="https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Graphic Design Services - Digimarketing Art" />
+        <meta name="twitter:description" content="Eye-catching visual designs that communicate your brand message. Logo design, branding, social media graphics & more." />
+        <meta name="twitter:image" content="https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Service",
+              "serviceType": "Graphic Design",
+              "provider": { "@type": "Organization", "name": "Digimarketing Art", "url": "https://www.digimarketingart.com" },
+              "areaServed": { "@type": "Country", "name": "India" },
+              "description": "Eye-catching visual designs that communicate your brand message."
+            })
+          }}
+        />
       </Head>
       {/* Hero */}
       <section style={{ padding: '100px 24px', backgroundImage: 'url(https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1782204270/AQObGbUfP4up08TPSMrvk_oHlyXk9N2371ups_giAouu9FBO04G1xc8Q149uU3dmk-2Mw9P6Y-uEBbfUQzJgZ3ghOxkqlE74VG-VMLil7rL6cIutZq-8KJPUwXfJ_x3TY87mVPJnX5zDMrOy5k5jJwsnnvSX9w.jpeg_q8e0cx.jpg)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundAttachment: 'fixed', position: 'relative', overflow: 'hidden' }}>

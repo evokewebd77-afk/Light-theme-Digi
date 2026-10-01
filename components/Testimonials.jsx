@@ -4,56 +4,77 @@ function Testimonials() {
       text: "Outstanding service with precise execution — lead quality improved almost immediately.",
       name: 'ITC INDIA',
       company: 'Product Testing Laboratory • India',
-      summary: 'We have successfully generated over 70 high-quality leads for the client, optimized their LinkedIn profile, and increased their revenue.',
+      summary: 'Generated over 70 high-quality leads, optimized LinkedIn profile, and increased revenue.',
       initials: 'IT',
+      logo: 'https://res.cloudinary.com/didtfhfme/image/upload/v1779180782/itc_mhm3ld.webp',
+      accentColor: '#CB0021',
     },
     {
       text: "Transparent, collaborative, and results-driven — our enrollment numbers grew significantly.",
       name: 'Sustainable Futures Trainings',
-      company: 'ISO and QMS Training Providers • Canada',
-      summary: 'Thanks to our efforts, more than 100 leads were generated from the campaigns we developed.',
+      company: 'ISO & QMS Training • India',
+      summary: 'More than 100 leads generated from strategically developed campaigns.',
       initials: 'SF',
+      logo: 'https://res.cloudinary.com/didtfhfme/image/upload/v1779180796/sft_fl24sf.webp',
+      accentColor: '#2563EB',
     },
     {
       text: "They truly understood our niche — lead quality and brand visibility grew remarkably.",
       name: 'EuroTech',
-      company: 'Assessment and Certification Service Providers • India',
-      summary: 'With our help, 50 quality leads were generated at a high-cost value, which helped grow the business.',
+      company: 'Assessment & Certification • Canada',
+      summary: '50 quality leads generated at high-cost value, driving business growth.',
       initials: 'ET',
+      logo: 'https://res.cloudinary.com/didtfhfme/image/upload/v1779180773/eurotech_pdhehu.webp',
+      accentColor: '#7C3AED',
     },
   ];
 
   return (
     <section id="voices" className="testimonials-section">
-      <div className="testimonials-bg" />
       <div className="container">
         <div className="testimonials-header">
           <div className="section-label">OUR TESTIMONIALS</div>
           <h2 className="section-title">What Our Clients <span className="font-display-italic">Say</span></h2>
-          <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginTop: 8 }}>
-            <span style={{ fontSize: 12, color: 'var(--text-secondary)', fontFamily: 'var(--font-mono)', textTransform: 'uppercase', letterSpacing: '0.1em', fontWeight: 600 }}>Clutch Award</span>
-            <span style={{ fontSize: 12, color: 'var(--text-secondary)' }}>Clutch</span>
-            <span style={{ fontSize: 12, color: 'var(--text-secondary)', fontFamily: 'var(--font-mono)', textTransform: 'uppercase', letterSpacing: '0.1em', fontWeight: 600 }}>Verified Reviews</span>
+          <div className="testimonials-clutch-badge">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style={{ color: '#CB0021' }}>
+              <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+            </svg>
+            <span className="clutch-label">Clutch Verified</span>
+            <span className="clutch-divider" />
+            <span className="clutch-stars">★★★★★</span>
+            <span className="clutch-rating">5.0</span>
           </div>
         </div>
 
         <div className="testimonials-grid">
           {testimonials.map((t, i) => (
-            <div key={i} className="testimonial-card">
-              <span className="testimonial-quote">“</span>
-              <p className="testimonial-text">{t.text}</p>
-              <div className="testimonial-divider" />
-              <div className="testimonial-author">
-                <div className="testimonial-avatar">{t.initials}</div>
-                <div>
-                  <div className="testimonial-name" style={{ fontWeight: 700 }}>{t.name}</div>
+            <div key={i} className="testimonial-card" style={{ '--card-accent': t.accentColor }}>
+              <div className="testimonial-accent-bar" />
+
+              <div className="testimonial-card-inner">
+                {/* Top row: Client Logo + Star Rating */}
+                <div className="testimonial-top-row">
+                  <div className="testimonial-logo-wrap">
+                    <img src={t.logo} alt={t.name} className="testimonial-logo" />
+                  </div>
+                  <div className="testimonial-stars">★★★★★</div>
+                </div>
+
+                {/* Quote */}
+                <p className="testimonial-text">"{t.text}"</p>
+
+                <div className="testimonial-divider" />
+
+                {/* Author */}
+                <div className="testimonial-author">
+                  <div className="testimonial-name">{t.name}</div>
                   <div className="testimonial-location">{t.company}</div>
                 </div>
-              </div>
-              <div style={{ marginTop: 16, padding: '12px 14px', background: 'rgba(255,255,255,0.6)', borderRadius: 12, border: '1px solid rgba(0,0,0,0.04)' }}>
-                <p style={{ fontSize: 13, color: 'var(--text-secondary)', lineHeight: 1.7, margin: 0 }}>
-                  <strong>SUMMARY:</strong> {t.summary}
-                </p>
+
+                {/* Summary */}
+                <div className="testimonial-summary">
+                  <p><strong>RESULT:</strong> {t.summary}</p>
+                </div>
               </div>
             </div>
           ))}

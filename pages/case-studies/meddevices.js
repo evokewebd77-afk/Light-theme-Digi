@@ -31,9 +31,37 @@ function MedDevicesCaseStudy() {
   return (
     <div style={{ paddingTop: 96 }}>
       <Head>
-        <title>MedDevices LifeSciences - Lead Generation & Marketing Automation Case Study | Digimarketing Art</title>
+        <title>MedDevices LifeSciences (India, Netherland) - Lead Generation & Marketing Automation Case Study | Digimarketing Art</title>
         <meta name="description" content="Read how Digimarketing Art built a complete lead generation and marketing automation system for MedDevices LifeSciences, generating 40+ qualified leads per month." />
         <meta name="keywords" content="B2B lead generation, medical device marketing, compliance marketing, Google Ads B2B, marketing automation, meddevices" />
+        <link rel="canonical" href="https://www.digimarketingart.com/case-studies/meddevices" />
+        <meta property="og:title" content="MedDevices LifeSciences - Lead Generation & Marketing Automation Case Study | Digimarketing Art" />
+        <meta property="og:description" content="Read how Digimarketing Art built a complete lead generation and marketing automation system for MedDevices LifeSciences." />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="https://www.digimarketingart.com/case-studies/meddevices" />
+        <meta property="og:image" content="https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="MedDevices LifeSciences - Lead Generation Case Study | Digimarketing Art" />
+        <meta name="twitter:description" content="Read how Digimarketing Art built a complete lead generation and marketing automation system." />
+        <meta name="twitter:image" content="https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Article",
+              "headline": "MedDevices LifeSciences - Lead Generation & Marketing Automation Case Study",
+              "description": "Read how Digimarketing Art built a complete lead generation and marketing automation system for MedDevices LifeSciences.",
+              "author": { "@type": "Organization", "name": "Digimarketing Art" },
+              "publisher": {
+                "@type": "Organization",
+                "name": "Digimarketing Art",
+                "logo": { "@type": "ImageObject", "url": "https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" }
+              },
+              "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.digimarketingart.com/case-studies/meddevices" }
+            })
+          }}
+        />
       </Head>
 
       <style>{`
@@ -135,18 +163,28 @@ function MedDevicesCaseStudy() {
           </Link>
 
           <div className="med-hover-card" style={card({ marginBottom:24 })}>
-            <span style={label()}>Client Overview</span>
-            <h2 style={h2()}>About MedDevices LifeSciences</h2>
-            <p style={p({ marginBottom:20 })}>
+            <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between', marginBottom:12 }}>
+              <div>
+                <span style={label()}>Client Overview</span>
+                <h2 style={h2({ marginBottom:0 })}>About MedDevices LifeSciences</h2>
+              </div>
+              <img
+                src="https://res.cloudinary.com/didtfhfme/image/upload/v1779180784/med_janju1.webp"
+                alt="MedDevices LifeSciences"
+                style={{ width:85, height:85, borderRadius:12, objectFit:'contain', flexShrink:0 }}
+              />
+            </div>
+            <p style={p({ marginBottom:14, fontSize:13 })}>
               MedDevices LifeSciences is a regulatory consulting company helping businesses with medical device, cosmetic, food, and international compliance requirements. Their services support manufacturers, exporters, brand owners, and compliance teams seeking access to regulated markets such as the USA and the European Union.
             </p>
-            <p style={p({ marginBottom:20 })}>
+            <p style={p({ marginBottom:14, fontSize:13 })}><strong>Website:</strong> <a href="https://www.meddevices.net/" target="_blank" rel="noopener noreferrer" style={{ color: THEME_COLOR }}>https://www.meddevices.net/</a></p>
+            <p style={p({ marginBottom:14, fontSize:13 })}>
               The company already had strong technical expertise and industry knowledge. However, like many B2B compliance businesses, the challenge was turning that expertise into a predictable digital lead generation system.
             </p>
-            <p style={p({ marginBottom:20 })}>
+            <p style={p({ marginBottom:14, fontSize:13 })}>
               To solve this, Digital Advertisement Makeeting Network partnered with MedDevices to design and implement a complete digital marketing ecosystem. The project included conversion-focused landing pages, Google Ads campaigns, lead capture systems, Instagram automation, and email marketing workflows that would consistently generate qualified inquiries.
             </p>
-            <p style={p()}>
+            <p style={p({ fontSize:13 })}>
               The objective was not simply to increase website traffic, but to build a scalable marketing system that could attract, convert, and nurture high-intent prospects.
             </p>
           </div>
@@ -390,6 +428,22 @@ function MedDevicesCaseStudy() {
                 </div>
               ))}
             </div>
+          </div>
+
+          {/* ── MEDDEVICES IMAGES ── */}
+          <div className="med-hover-card" style={{ ...card({ marginBottom:20 }), padding:0, overflow:'hidden' }}>
+            <img
+              src="/med2.png"
+              alt="MedDevices Case Study"
+              style={{ width:'100%', height:'auto', display:'block' }}
+            />
+          </div>
+          <div className="med-hover-card" style={{ ...card({ marginBottom:20 }), padding:0, overflow:'hidden' }}>
+            <img
+              src="/med1.webp"
+              alt="MedDevices Case Study"
+              style={{ width:'100%', height:'auto', display:'block' }}
+            />
           </div>
 
           <div className="med-hover-card" style={card({ marginBottom:24 })}>

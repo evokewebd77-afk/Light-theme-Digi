@@ -11,6 +11,16 @@ const Contact = () => {
         <title>Contact Us - Digimarketing Art | Get in Touch</title>
         <meta name="description" content="Contact Digimarketing Art for digital marketing services. Get a free consultation call. Email us at info@digimarketingart.com or call +91-90565-44487." />
         <meta name="keywords" content="contact digital marketing agency, digital marketing consultation, free marketing consultation, call digital marketing agency" />
+        <link rel="canonical" href="https://www.digimarketingart.com/contact" />
+        <meta property="og:title" content="Contact Us - Digimarketing Art | Get in Touch" />
+        <meta property="og:description" content="Contact Digimarketing Art for digital marketing services. Get a free consultation call. Email us at info@digimarketingart.com or call +91-90565-44487." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.digimarketingart.com/contact" />
+        <meta property="og:image" content="https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Contact Us - Digimarketing Art | Get in Touch" />
+        <meta name="twitter:description" content="Contact Digimarketing Art for digital marketing services. Get a free consultation call." />
+        <meta name="twitter:image" content="https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" />
       </Head>
       {/* Hero */}
       <section style={{ padding: '120px 24px', textAlign: 'center', position: 'relative', overflow: 'hidden', backgroundImage: 'url(https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1781930881/14f2d9c1-80d8-4372-b59d-c6f6257eb20e_aietla.png)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'fixed' }}>

@@ -32,6 +32,9 @@ function Navbar() {
               src="https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png"
               alt="Digimarketing Art"
               className="header-logo"
+              width="100"
+              height="75"
+              fetchPriority="high"
             />
             <span className="nav-brand-text">
               <span className="nav-brand-top"><span className="brand-cap">D</span>igital <span className="brand-cap">A</span>dvertisement</span>

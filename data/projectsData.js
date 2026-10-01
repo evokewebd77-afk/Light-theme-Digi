@@ -11,7 +11,7 @@ export const projects = [
   {
     id: 2,
     slug: 'sustainable-futures',
-    title: 'SFT (India)',
+    title: 'Sustainable Future Training (India)',
     description: 'Empowering Professionals for a Sustainable Tomorrow. Practical, Accredited, and AI-Enhanced Sustainability Training. Transform Your Career and Your Organization.',
     category: 'Training & Development',
     image: 'https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_100/v1779180795/SFT_BG_cwiatd.jpg',
@@ -30,7 +30,7 @@ export const projects = [
   {
     id: 5,
     slug: 'meddevices',
-    title: 'MedDevices LifeSciences (India)',
+    title: 'MedDevices LifeSciences (India, Netherland)',
     description: 'Leading Total Quality Assurance provider specializing in the field of medical devices industry worldwide. One stop solution for inspections, trainings, CE marking, ISO certifications & testing.',
     category: 'Medical Devices',
     image: 'https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_100/v1779422857/AQPJ7G5Z7K660Mir6WN4i3dpgCNikYYyKCEsIoRv2bF-dTABr6OD4CD82ozDZm4Bc6RUlrSLPsBiZ0MdC4mfBgVM8gzrBJQE4R0ikWEIrWbdG589hEt3z2korpmsFqOJ_iNMkOUy3sYbSkCBKoEj_QHb2aJo1A.jpeg_xwglds.jpg',
@@ -47,11 +47,20 @@ export const projects = [
   {
     id: 10,
     slug: 'eurotech-world',
-    title: 'EuroTech World',
+    title: 'EuroTech World (India, Canada)',
     description: 'Is a leading provider of inspection, testing, certification, training, and compliance solutions, helping businesses meet national and international quality, safety, and regulatory standards. Established in 2008.',
     category: 'Global Compliance',
     image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop',
     website: 'https://www.eurotechworld.net/'
+  },
+  {
+    id: 11,
+    slug: 'fingers-on-keys',
+    title: 'Fingers on Keys',
+    description: 'Learn piano and keyboard through personalised live 1-on-1 online classes with professional instructors. Flexible lessons for children and adults, from complete beginners to developing musicians.',
+    category: 'Live Online Piano & Keyboard Classes',
+    image: '/fingersonkey.png',
+    website: 'https://www.fingers-onkeys.com/'
   },
   {
     id: 9,

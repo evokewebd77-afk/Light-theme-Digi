@@ -98,6 +98,16 @@ const ServicesPage = () => {
         <title>Our Services - Digimarketing Art | Digital Marketing Agency</title>
         <meta name="description" content="Explore Digimarketing Art's full range of digital marketing services: SEO, PPC, SMM, Web Development, Content Writing, Lead Generation, and more." />
         <meta name="keywords" content="digital marketing services, SEO services, PPC services, SMM services, web development services, content writing services, lead generation services" />
+        <link rel="canonical" href="https://www.digimarketingart.com/services" />
+        <meta property="og:title" content="Our Services - Digimarketing Art | Digital Marketing Agency" />
+        <meta property="og:description" content="Explore Digimarketing Art's full range of digital marketing services: SEO, PPC, SMM, Web Development, Content Writing, Lead Generation, and more." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.digimarketingart.com/services" />
+        <meta property="og:image" content="https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Our Services - Digimarketing Art | Digital Marketing Agency" />
+        <meta name="twitter:description" content="Explore Digimarketing Art's full range of digital marketing services: SEO, PPC, SMM, Web Development, and more." />
+        <meta name="twitter:image" content="https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" />
       </Head>
       {/* Hero */}
       <section style={{

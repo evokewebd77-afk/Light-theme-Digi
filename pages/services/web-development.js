@@ -96,6 +96,29 @@ const WebDevelopment = () => {
         <title>Web Development Services - Digimarketing Art</title>
         <meta name="description" content="Custom web development services by Digimarketing Art. Responsive websites, e-commerce, CMS, and high-performance web solutions for your business." />
         <meta name="keywords" content="web development services, website design, e-commerce development, CMS development, responsive web design, web application development" />
+        <link rel="canonical" href="https://www.digimarketingart.com/services/web-development" />
+        <meta property="og:title" content="Web Development Services - Digimarketing Art" />
+        <meta property="og:description" content="Custom web development services by Digimarketing Art. Responsive websites, e-commerce, CMS, and high-performance web solutions." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.digimarketingart.com/services/web-development" />
+        <meta property="og:image" content="https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Web Development Services - Digimarketing Art" />
+        <meta name="twitter:description" content="Custom web development services by Digimarketing Art. Responsive websites, e-commerce, CMS, and high-performance web solutions." />
+        <meta name="twitter:image" content="https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Service",
+              "serviceType": "Web Development",
+              "provider": { "@type": "Organization", "name": "Digimarketing Art", "url": "https://www.digimarketingart.com" },
+              "areaServed": { "@type": "Country", "name": "India" },
+              "description": "Custom web development services by Digimarketing Art. Responsive websites, e-commerce, CMS, and high-performance web solutions."
+            })
+          }}
+        />
       </Head>
       {/* Hero */}
       <section style={{ padding: '100px 24px', backgroundImage: 'url(https://res.cloudinary.com/didtfhfme/image/upload/v1782206551/AQPtfMTdXenTSHdEMkCB5IaKhzMJe2Wkus4xNjfUIhV9Madkw6qM-JqQ5ZESNn1nN_dDSrXdGD6-4z-ZM18O3o_OFo2uoW5yX_ipfA5xijWA_IIDulZBU-KTYCyKA590F5ZsIgsxoE4BC9gHrZKyUQj-ePf_sA.jpeg_g8skaa.jpg)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundAttachment: 'fixed', position: 'relative', overflow: 'hidden' }}>

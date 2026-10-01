@@ -1,4 +1,4 @@
-import Head from 'next/head';
+﻿import Head from 'next/head';
 import React from 'react';
 import Link from 'next/link';
 import {
@@ -17,7 +17,7 @@ const services = [
     title: 'Influencer Identification & Shortlisting',
     desc: 'We find influencers who match your niche, audience, and tone.',
     icon: Users,
-    items: ['We find influencers who match your niche, audience, and tone.', 'From micro to mega influencers—local or global, we\'ve got you covered.', 'Vetting through engagement rates, audience quality, and brand fit.', 'Only real influencers with real reach.'],
+    items: ['We find influencers who match your niche, audience, and tone.', 'From micro to mega influencersâ€”local or global, we\'ve got you covered.', 'Vetting through engagement rates, audience quality, and brand fit.', 'Only real influencers with real reach.'],
     image: 'https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779174041/AQOPjpGmP6VzDMPFOe6siKq1Fg2jkgWkm5ofyvFLuQhdGTrCMbZCDaViLzIi0mx_PyjLCcaLwl0OpHaWsibAmDhto_ZL6jaqIuAuRu5G9vfF8FDHmMZi6lQE2qH-OEvcZFWRLkDa64abRTFhJQWdH4l4xEvUzQ.jpeg_hcdejl.jpg'
   },
   {
@@ -45,7 +45,7 @@ const services = [
     title: 'Analytics & Reporting',
     desc: 'Detailed performance reports: reach, engagement, traffic, and leads.',
     icon: BarChart3,
-    items: ['Detailed performance reports: reach, engagement, traffic, and leads.', 'ROI tracking on each influencer\'s contribution.', 'Recommendations for future campaigns.', 'We don\'t just post—we prove results.'],
+    items: ['Detailed performance reports: reach, engagement, traffic, and leads.', 'ROI tracking on each influencer\'s contribution.', 'Recommendations for future campaigns.', 'We don\'t just postâ€”we prove results.'],
     image: 'https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779173235/AQPRXTM-B3C4fF2gH419QbLKWyy54Wxbjfw5VyPYGyPKFBJp9wr7L1SrvrcbbGdt7vj3jri75lpQxpSdRQay40w7ieQEp_YD0iNfnem60QDI1W-sKCAS4FWJ1wCS5rYc3_iyil7mY6vgXhoDKPNhcKSYxn_GNA.jpeg_pltj2r.jpg'
   },
 ];
@@ -81,7 +81,7 @@ const timeline = [
   },
 ];
 
-const whyChoose = { title: 'DamnArt Influencers', items: ['Vetted Network of Trusted Influencers', 'Targeted Campaigns That Reach the Right Audience', 'Performance-Driven, Not Just Pretty Posts', 'Cross-Platform Expertise (Instagram, YouTube, LinkedIn, Twitter, Blogs)'] };
+const whyChoose = { title: 'Digimarketing Art Influencers', items: ['Vetted Network of Trusted Influencers', 'Targeted Campaigns That Reach the Right Audience', 'Performance-Driven, Not Just Pretty Posts', 'Cross-Platform Expertise (Instagram, YouTube, LinkedIn, Twitter, Blogs)'] };
 
 const InfluencerMarketing = () => {
   const accentColor = '#f45e73';
@@ -91,6 +91,29 @@ const InfluencerMarketing = () => {
         <title>Influencer Marketing Services - Digimarketing Art</title>
         <meta name="description" content="Creator partnerships, UGC campaigns and performance tracking. Digimarketing Art connects your brand with trusted influencers across platforms." />
         <meta name="keywords" content="influencer marketing, creator partnerships, UGC campaigns, influencer campaigns, social media influencers, brand collaboration" />
+        <link rel="canonical" href="https://www.digimarketingart.com/services/influencer-marketing" />
+        <meta property="og:title" content="Influencer Marketing Services - Digimarketing Art" />
+        <meta property="og:description" content="Creator partnerships, UGC campaigns and performance tracking. Connect your brand with trusted influencers." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.digimarketingart.com/services/influencer-marketing" />
+        <meta property="og:image" content="https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Influencer Marketing Services - Digimarketing Art" />
+        <meta name="twitter:description" content="Creator partnerships, UGC campaigns and performance tracking. Connect your brand with trusted influencers." />
+        <meta name="twitter:image" content="https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Service",
+              "serviceType": "Influencer Marketing",
+              "provider": { "@type": "Organization", "name": "Digimarketing Art", "url": "https://www.digimarketingart.com" },
+              "areaServed": { "@type": "Country", "name": "India" },
+              "description": "Creator partnerships, UGC campaigns and performance tracking."
+            })
+          }}
+        />
       </Head>
       {/* Hero */}
       <section style={{ padding: '100px 24px', background: `url('https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1782277949/AQOjTrrtsTUjaN6qgtQ7DZZ0RmKnee9cMuI1Rv3HLzOjezD4gGdrCXTB4C_I5y2jJos09Znrybw4hze6A2mLx42q28VpEoqJRceAbiDLH8I9NSP-B6j-ewUQe1CU8TU7XMvZSEKAvcsLeYvCtpJVkvp1ZPx-Sg.jpeg_yos9vu.jpg') center/cover fixed`, position: 'relative', overflow: 'hidden' }}>

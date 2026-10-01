@@ -84,6 +84,29 @@ const DigitalMarketingAudit = () => {
         <title>Digital Marketing Audit Services - Digimarketing Art</title>
         <meta name="description" content="Maximize ROI with a data-driven digital marketing performance audit from Digimarketing Art. Comprehensive analysis of your online marketing efforts." />
         <meta name="keywords" content="digital marketing audit, marketing performance audit, ROI analysis, marketing strategy audit, digital marketing analysis" />
+        <link rel="canonical" href="https://www.digimarketingart.com/services/digital-marketing-audit" />
+        <meta property="og:title" content="Digital Marketing Audit Services - Digimarketing Art" />
+        <meta property="og:description" content="Maximize ROI with a data-driven digital marketing performance audit. Comprehensive analysis of your online marketing efforts." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.digimarketingart.com/services/digital-marketing-audit" />
+        <meta property="og:image" content="https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Digital Marketing Audit Services - Digimarketing Art" />
+        <meta name="twitter:description" content="Maximize ROI with a data-driven digital marketing performance audit." />
+        <meta name="twitter:image" content="https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Service",
+              "serviceType": "Digital Marketing Audit",
+              "provider": { "@type": "Organization", "name": "Digimarketing Art", "url": "https://www.digimarketingart.com" },
+              "areaServed": { "@type": "Country", "name": "India" },
+              "description": "Maximize ROI with a data-driven digital marketing performance audit."
+            })
+          }}
+        />
       </Head>
       {/* Hero */}
       <section style={{ padding: '100px 24px', backgroundImage: 'url(https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1782204726/AQNzKNmSQXvWxfJxIMHv5yxiQZqAYQhs34Mjms84O7WwHdPGebMeLn6BF0CG1p26jakW95hZDkrr5gTESuoKSJxmvb38-fa79gADRUOGT4oVwNK_JulSRN3npnnD5_OiBfY63738r-MiGSsjeB3eRNpCYT4c.jpeg_jqjwgt.jpg)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundAttachment: 'fixed', position: 'relative', overflow: 'hidden' }}>

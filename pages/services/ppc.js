@@ -97,6 +97,29 @@ const Ppc = () => {
         <title>PPC Services - Digimarketing Art | Pay-Per-Click Advertising</title>
         <meta name="description" content="Drive targeted traffic and increase conversions with Digimarketing Art's PPC advertising services. Google Ads, Social Media Ads, Retargeting & more." />
         <meta name="keywords" content="PPC services, pay per click advertising, Google Ads, social media ads, retargeting, PPC management, paid advertising" />
+        <link rel="canonical" href="https://www.digimarketingart.com/services/ppc" />
+        <meta property="og:title" content="PPC Services - Digimarketing Art | Pay-Per-Click Advertising" />
+        <meta property="og:description" content="Drive targeted traffic and increase conversions with Digimarketing Art's PPC advertising services." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.digimarketingart.com/services/ppc" />
+        <meta property="og:image" content="https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="PPC Services - Digimarketing Art | Pay-Per-Click Advertising" />
+        <meta name="twitter:description" content="Drive targeted traffic and increase conversions with Digimarketing Art's PPC advertising services." />
+        <meta name="twitter:image" content="https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Service",
+              "serviceType": "Pay-Per-Click Advertising",
+              "provider": { "@type": "Organization", "name": "Digimarketing Art", "url": "https://www.digimarketingart.com" },
+              "areaServed": { "@type": "Country", "name": "India" },
+              "description": "Drive targeted traffic and increase conversions with Digimarketing Art's PPC advertising services."
+            })
+          }}
+        />
       </Head>
       {/* Hero */}
       <section style={{

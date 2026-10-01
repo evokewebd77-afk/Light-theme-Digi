@@ -91,6 +91,29 @@ const DataMining = () => {
         <title>Data Mining Services - Digimarketing Art</title>
         <meta name="description" content="Extract actionable insights with advanced data mining solutions from Digimarketing Art. B2B data extraction, lead lists & market intelligence." />
         <meta name="keywords" content="data mining services, B2B data extraction, lead lists, market intelligence, data analysis, business data mining" />
+        <link rel="canonical" href="https://www.digimarketingart.com/services/data-mining" />
+        <meta property="og:title" content="Data Mining Services - Digimarketing Art" />
+        <meta property="og:description" content="Extract actionable insights with advanced data mining solutions. B2B data extraction, lead lists & market intelligence." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.digimarketingart.com/services/data-mining" />
+        <meta property="og:image" content="https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Data Mining Services - Digimarketing Art" />
+        <meta name="twitter:description" content="Extract actionable insights with advanced data mining solutions. B2B data extraction, lead lists & market intelligence." />
+        <meta name="twitter:image" content="https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Service",
+              "serviceType": "Data Mining",
+              "provider": { "@type": "Organization", "name": "Digimarketing Art", "url": "https://www.digimarketingart.com" },
+              "areaServed": { "@type": "Country", "name": "India" },
+              "description": "Extract actionable insights with advanced data mining solutions."
+            })
+          }}
+        />
       </Head>
       {/* Hero */}
       <section style={{ padding: '100px 24px', background: `url('https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1782276708/AQN6VS9BnhYvZKtoI_86ciafdnjeYgWMhE6fxWYiYfXGZ29pgIqN5NOt7AgbYR94-jN5scPvOTLAdNxQ8_3k9WZpS_Hv4F4dSiydknzD-BRFHxrsTCuLd9vhKWKVgmlR7i8O0Fl_j7A-Zx3wmR8XePrb7NSkxg.jpeg_k32hql.jpg') center/cover no-repeat`, position: 'relative', overflow: 'hidden' }}>

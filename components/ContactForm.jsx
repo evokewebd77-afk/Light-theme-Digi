@@ -5,7 +5,15 @@ const DRAFT_COOKIE = 'dma_contact_draft';
 
 const DEFAULT_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbyxs_2JQ5pMH4AUTVRzjlIpu07aHHzHYK0D1dv5CUxUB_5WyxDKufKSIRdczeobNtuB/exec';
 
-function ContactForm({ accentColor = '#d73d56', showOffices = true, leftPanel, appScriptUrl = DEFAULT_SCRIPT_URL, standalone = false }) {
+function ContactForm({
+  accentColor = '#d73d56',
+  showOffices = true,
+  leftPanel,
+  appScriptUrl = DEFAULT_SCRIPT_URL,
+  standalone = false,
+  bgImage,
+  darkOverlay = true,
+}) {
   const [selectedServices, setSelectedServices] = useState(['ppc']);
   const debounceRef = useRef(null);
   
@@ -245,26 +253,46 @@ function ContactForm({ accentColor = '#d73d56', showOffices = true, leftPanel, a
   if (standalone) return formElement;
 
   return (
-    <section id="contact" className="contact-section" style={{
+    <section id="contact" className={`contact-section ${bgImage ? 'has-custom-bg' : ''}`} style={{
       '--cf-accent': accentColor,
       '--cf-accent-blob': `rgba(${rgb}, 0.1)`,
       '--cf-accent-border': `rgba(${rgb}, 0.25)`,
       '--cf-accent-shadow': `0 0 0 4px rgba(${rgb}, 0.1)`,
       '--cf-accent-btn-shadow': `0 18px 32px rgba(${rgb}, 0.25)`,
+      ...(bgImage ? {
+        backgroundImage: `url(${bgImage})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundAttachment: 'fixed',
+      } : {}),
     }}>
-      <div className="contact-bg-image" />
-      <div className="contact-text-overlay" />
-      <div className="contact-bg" />
+      {bgImage && (
+        <div style={{
+          position: 'absolute',
+          inset: 0,
+          background: darkOverlay ? 'rgba(0, 0, 0, 0.45)' : 'rgba(0, 0, 0, 0.3)',
+          pointerEvents: 'none',
+          zIndex: 0,
+        }} />
+      )}
+      {!bgImage && (
+        <>
+          <div className="contact-bg-image" />
+          <div className="contact-text-overlay" />
+          <div className="contact-bg">
+            <div className="contact-bg-glow" />
+            <div className="contact-bg-dots" />
+          </div>
+        </>
+      )}
       <div style={{ position: 'relative', zIndex: 2 }}>
-
-
       <div className="container">
-        <div className="reveal" style={{ marginBottom: '48px', textAlign: showOffices ? 'left' : 'center' }}>
-          <div className="section-label" style={{ background: accentColor, color: '#fff', borderColor: accentColor, marginLeft: showOffices ? '0' : 'auto', marginRight: showOffices ? '0' : 'auto' }}>Contact Our Team</div>
-          <h2 style={{ fontSize: 'clamp(38px, 5vw, 62px)', lineHeight: '1.05', margin: '18px 0 0' }}>
-            Let's Build<br /><span style={{ color: accentColor }}>Something <span className="font-display-italic" style={{ color: accentColor }}> Powerful</span></span>
+        <div className="reveal contact-section-head" style={{ marginBottom: '44px', textAlign: (showOffices || leftPanel) ? 'left' : 'center' }}>
+          <div className="section-label" style={{ background: accentColor, color: '#fff', borderColor: accentColor, marginLeft: (showOffices || leftPanel) ? '0' : 'auto', marginRight: (showOffices || leftPanel) ? '0' : 'auto' }}>Contact Our Team</div>
+          <h2 className="contact-section-h2" style={{ fontSize: 'clamp(28px, 4.5vw, 56px)', lineHeight: '1.08', margin: '18px 0 0', fontWeight: 800, color: bgImage ? '#ffffff' : 'inherit', textShadow: bgImage ? '0 2px 8px rgba(0,0,0,0.6)' : 'none' }}>
+            Let's Build<br /><span style={{ color: accentColor }}>Something <span className="font-display-italic" style={{ color: accentColor }}>Powerful</span></span>
           </h2>
-          <p style={{ color: 'var(--text-secondary)', fontSize: '17px', marginTop: '18px', maxWidth: '700px', lineHeight: '1.9', marginLeft: showOffices ? '0' : 'auto', marginRight: showOffices ? '0' : 'auto' }}>
+          <p className="contact-section-desc" style={{ color: bgImage ? 'rgba(255,255,255,0.92)' : 'var(--text-secondary)', fontSize: '17px', marginTop: '16px', maxWidth: '640px', lineHeight: '1.8', marginLeft: (showOffices || leftPanel) ? '0' : 'auto', marginRight: (showOffices || leftPanel) ? '0' : 'auto', textShadow: bgImage ? '0 1px 4px rgba(0,0,0,0.4)' : 'none' }}>
             Connect with our global offices and expert team to start scaling your business digitally.
           </p>
         </div>

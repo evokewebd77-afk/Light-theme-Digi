@@ -98,6 +98,29 @@ const ContentWriting = () => {
         <title>Content Writing Services - Digimarketing Art</title>
 <meta name="description" content="Compelling content that engages your audience and boosts conversions. SEO-optimized blog posts, web copy, and marketing content by Digimarketing Art." />
         <meta name="keywords" content="content writing services, SEO content writing, blog writing, web copywriting, marketing content, website content" />
+        <link rel="canonical" href="https://www.digimarketingart.com/services/content-writing" />
+        <meta property="og:title" content="Content Writing Services - Digimarketing Art" />
+        <meta property="og:description" content="Compelling content that engages your audience and boosts conversions. SEO-optimized blog posts, web copy, and marketing content." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.digimarketingart.com/services/content-writing" />
+        <meta property="og:image" content="https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Content Writing Services - Digimarketing Art" />
+        <meta name="twitter:description" content="Compelling content that engages your audience. SEO-optimized blog posts, web copy, and marketing content." />
+        <meta name="twitter:image" content="https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Service",
+              "serviceType": "Content Writing",
+              "provider": { "@type": "Organization", "name": "Digimarketing Art", "url": "https://www.digimarketingart.com" },
+              "areaServed": { "@type": "Country", "name": "India" },
+              "description": "Compelling content that engages your audience and boosts conversions."
+            })
+          }}
+        />
       </Head>
       {/* Hero */}
       <section style={{ padding: '100px 24px', backgroundImage: 'url(https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1782198784/AQNE-w2BHBqYzuSnr11sy9OPuKVU2p05vQOLUp3BcEruPbF6rSlIr2Pa2fTLBD0h4264ZuRZti4M1godvpvsyHQdcWzBtf3bRWAOh0IeHnv4xVUH_UHcvAkD9JkrOU8-vOizs0d1JnGnSfHRosaGktBIXhd-LA.jpeg_hqn0ev.jpg)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundAttachment: 'fixed', position: 'relative', overflow: 'hidden' }}>

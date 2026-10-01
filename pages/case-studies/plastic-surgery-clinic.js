@@ -34,6 +34,34 @@ function PlasticSurgeryCaseStudy() {
         <title>Plastic Surgery Clinic Chandigarh - Lead Generation Case Study | Digimarketing Art</title>
         <meta name="description" content="Read how Digimarketing Art generated 100+ qualified plastic surgery enquiries for Plastic Surgery Clinic, Chandigarh through Google Ads and dedicated landing pages." />
         <meta name="keywords" content="plastic surgery lead generation, Google Ads plastic surgery, healthcare marketing, plastic surgery clinic, cosmetic surgery marketing" />
+        <link rel="canonical" href="https://www.digimarketingart.com/case-studies/plastic-surgery-clinic" />
+        <meta property="og:title" content="Plastic Surgery Clinic Chandigarh - Lead Generation Case Study | Digimarketing Art" />
+        <meta property="og:description" content="Read how Digimarketing Art generated 100+ qualified plastic surgery enquiries." />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="https://www.digimarketingart.com/case-studies/plastic-surgery-clinic" />
+        <meta property="og:image" content="https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Plastic Surgery Clinic Chandigarh - Lead Generation Case Study | Digimarketing Art" />
+        <meta name="twitter:description" content="Read how Digimarketing Art generated 100+ qualified plastic surgery enquiries." />
+        <meta name="twitter:image" content="https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Article",
+              "headline": "Plastic Surgery Clinic Chandigarh - Lead Generation Case Study",
+              "description": "Read how Digimarketing Art generated 100+ qualified plastic surgery enquiries.",
+              "author": { "@type": "Organization", "name": "Digimarketing Art" },
+              "publisher": {
+                "@type": "Organization",
+                "name": "Digimarketing Art",
+                "logo": { "@type": "ImageObject", "url": "https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" }
+              },
+              "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.digimarketingart.com/case-studies/plastic-surgery-clinic" }
+            })
+          }}
+        />
       </Head>
 
       <style>{`
@@ -259,6 +287,15 @@ function PlasticSurgeryCaseStudy() {
                 </div>
               ))}
             </div>
+          </div>
+
+          {/* ── CAMPAIGN VISUAL ── */}
+          <div className="ps-hover-card" style={{ marginBottom:24, borderRadius:24, overflow:'hidden', border:'1px solid var(--border-color)', boxShadow:'0 2px 24px rgba(0,0,0,0.04)' }}>
+            <img
+              src="/PP.png"
+              alt="Plastic Surgery Clinic Campaign Performance"
+              style={{ width:'100%', height:'auto', display:'block', objectFit:'cover' }}
+            />
           </div>
 
           <div className="ps-hover-card" style={card({ marginBottom:24 })}>

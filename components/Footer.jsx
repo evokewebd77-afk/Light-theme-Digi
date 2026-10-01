@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin } from 'lucide-react';
+﻿import { Mail, Phone, MapPin } from 'lucide-react';
 import Link from 'next/link';
 
 function Footer() {
@@ -26,10 +26,10 @@ function Footer() {
               <a href="https://www.instagram.com/digimarketingart/" target="_blank" rel="noopener noreferrer" className="footer-social" aria-label="Instagram" style={{ color: '#E4405F' }}>
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><rect x="2" y="2" width="20" height="20" rx="5" /><path d="M12 8.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7z" fill="none" stroke="#fff" strokeWidth="1.5"/><circle cx="17" cy="7" r="1" fill="#fff"/></svg>
               </a>
-              <a href="https://www.facebook.com/people/DamnArt-Digital-Marketing-Services/61562382662176/" target="_blank" rel="noopener noreferrer" className="footer-social" aria-label="Facebook" style={{ color: '#1877F2' }}>
+              <a href="https://www.facebook.com/people/DigimarketingArt/61562382662176/" target="_blank" rel="noopener noreferrer" className="footer-social" aria-label="Facebook" style={{ color: '#1877F2' }}>
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
               </a>
-              <a href="https://www.linkedin.com/company/damnart/" target="_blank" rel="noopener noreferrer" className="footer-social" aria-label="LinkedIn" style={{ color: '#0A66C2' }}>
+              <a href="https://www.linkedin.com/company/digimarketingart/" target="_blank" rel="noopener noreferrer" className="footer-social" aria-label="LinkedIn" style={{ color: '#0A66C2' }}>
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
               </a>
               <a href="https://www.youtube.com/@digimarketingart" target="_blank" rel="noopener noreferrer" className="footer-social" aria-label="YouTube" style={{ color: '#FF0000' }}>
@@ -54,11 +54,11 @@ function Footer() {
           <div className="footer-col">
             <h4>Services</h4>
             <ul>
-              <li><Link href="/ppc">PPC Management</Link></li>
-              <li><Link href="/smm">Social Media</Link></li>
-              <li><Link href="/seo">SEO Services</Link></li>
-              <li><Link href="/web-development">Web Development</Link></li>
-              <li><Link href="/graphic-design">Graphic Design</Link></li>
+              <li><Link href="/services/ppc">PPC Management</Link></li>
+              <li><Link href="/services/smm">Social Media</Link></li>
+              <li><Link href="/services/seo">SEO Services</Link></li>
+              <li><Link href="/services/web-development">Web Development</Link></li>
+              <li><Link href="/services/graphic-design">Graphic Design</Link></li>
             </ul>
           </div>
 

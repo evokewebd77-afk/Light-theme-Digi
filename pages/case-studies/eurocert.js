@@ -36,6 +36,34 @@ function EurocertCaseStudy() {
         <title>EuroCert - Case Study | Digimarketing Art</title>
         <meta name="description" content="Learn how Digimarketing Art helped EuroCert strengthen their digital presence and reach new clients through targeted digital marketing campaigns." />
         <meta name="keywords" content="EuroCert case study, digital marketing case study, brand presence, client acquisition case study" />
+        <link rel="canonical" href="https://www.digimarketingart.com/case-studies/eurocert" />
+        <meta property="og:title" content="EuroCert - Case Study | Digimarketing Art" />
+        <meta property="og:description" content="Learn how Digimarketing Art helped EuroCert strengthen their digital presence and reach new clients." />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="https://www.digimarketingart.com/case-studies/eurocert" />
+        <meta property="og:image" content="https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="EuroCert - Case Study | Digimarketing Art" />
+        <meta name="twitter:description" content="Learn how Digimarketing Art helped EuroCert strengthen their digital presence." />
+        <meta name="twitter:image" content="https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Article",
+              "headline": "EuroCert - Case Study",
+              "description": "Learn how Digimarketing Art helped EuroCert strengthen their digital presence.",
+              "author": { "@type": "Organization", "name": "Digimarketing Art" },
+              "publisher": {
+                "@type": "Organization",
+                "name": "Digimarketing Art",
+                "logo": { "@type": "ImageObject", "url": "https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" }
+              },
+              "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.digimarketingart.com/case-studies/eurocert" }
+            })
+          }}
+        />
       </Head>
 
       {/* ─────────────────── GLOBAL ANIMATION STYLES ─────────────────── */}
@@ -172,10 +200,20 @@ function EurocertCaseStudy() {
 
             {/* About */}
             <div className="ec-hover-card" style={card()}>
-              <span style={label()}>About The Client</span>
-              <h2 style={h2({ marginBottom:10 })}>Client Overview</h2>
+              <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between', marginBottom:12 }}>
+                <div>
+                  <span style={label()}>About The Client</span>
+                  <h2 style={h2({ marginBottom:0 })}>Client Overview</h2>
+                </div>
+                <img
+                  src="https://res.cloudinary.com/didtfhfme/image/upload/v1779184663/cropped-LOGO_EUROCERT_v2-2_ox6qxz.webp"
+                  alt="EuroCert"
+                  style={{ width:85, height:85, borderRadius:12, objectFit:'contain', flexShrink:0 }}
+                />
+              </div>
               <p style={p({ marginBottom:16 })}>Eurocert is an internationally recognized certification, inspection, auditing, and compliance organization serving businesses across multiple industries.</p>
               <p style={p({ marginBottom:16 })}>Their services help organizations achieve compliance, certification, quality assurance, and operational excellence through globally recognized standards and auditing processes.</p>
+              <p style={p({ marginBottom:16 })}><strong>Website:</strong> <a href="https://eurocert.asia/" target="_blank" rel="noopener noreferrer" style={{ color: THEME_COLOR }}>https://eurocert.asia/</a></p>
               <div style={{ display:'flex', flexWrap:'wrap', gap:7 }}>
                 {['Certification','Inspection','Auditing','Compliance','Quality Assurance','Operational Excellence'].map((s,i) => (
                   <span key={i} className="ec-tag" style={{
@@ -406,6 +444,22 @@ function EurocertCaseStudy() {
               <div style={{ fontSize:13, fontWeight:700, color:'var(--text-secondary)', marginTop:8, letterSpacing:'0.05em', textTransform:'uppercase' }}>Modern &amp; Scalable</div>
               <p style={{ fontSize:14, color:'var(--text-secondary)', maxWidth:400, margin:'12px auto 0' }}>A complete digital infrastructure built for growth</p>
             </div>
+          </div>
+
+          {/* ── EUROCERT IMAGES ── */}
+          <div className="ec-hover-card" style={{ ...card({ marginBottom:20 }), padding:0, overflow:'hidden' }}>
+            <img
+              src="/euro.webp"
+              alt="EuroCert Case Study"
+              style={{ width:'100%', height:'auto', display:'block' }}
+            />
+          </div>
+          <div className="ec-hover-card" style={{ ...card({ marginBottom:20 }), padding:0, overflow:'hidden' }}>
+            <img
+              src="/euro2.png"
+              alt="EuroCert Case Study"
+              style={{ width:'100%', height:'auto', display:'block' }}
+            />
           </div>
 
           {/* ── BUSINESS IMPACT ── */}

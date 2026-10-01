@@ -88,12 +88,17 @@ function Hero() {
   }, [isAutoPlaying, isPaused, nextSlide]);
 
   useEffect(() => {
+    let ticking = false;
     const handleMouse = (e) => {
-      if (!heroRef.current) return;
-      const rect = heroRef.current.getBoundingClientRect();
-      const x = ((e.clientX - rect.left) / rect.width - 0.5) * 2;
-      const y = ((e.clientY - rect.top) / rect.height - 0.5) * 2;
-      setMousePos({ x, y });
+      if (ticking || !heroRef.current) return;
+      ticking = true;
+      requestAnimationFrame(() => {
+        const rect = heroRef.current.getBoundingClientRect();
+        const x = ((e.clientX - rect.left) / rect.width - 0.5) * 2;
+        const y = ((e.clientY - rect.top) / rect.height - 0.5) * 2;
+        setMousePos({ x, y });
+        ticking = false;
+      });
     };
     window.addEventListener('mousemove', handleMouse, { passive: true });
     return () => window.removeEventListener('mousemove', handleMouse);
@@ -184,7 +189,7 @@ function Hero() {
                       return (
                         <span key={wi}>
                           <span className={`word ${cls}`}>{word}</span>{' '}
-                          {(wi === 1 || wi === 3) && <br />}
+                          {(wi === 1 || wi === 3) && <br className="hero-br-desktop" />}
                         </span>
                       );
                     })}

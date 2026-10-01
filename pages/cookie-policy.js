@@ -46,6 +46,16 @@ const CookiePolicy = () => {
         <title>Cookie Policy - Digimarketing Art</title>
         <meta name="description" content="Cookie Policy of Digimarketing Art. Learn about how we use cookies, your preferences, and your rights regarding data privacy." />
         <meta name="keywords" content="cookie policy, cookies, data privacy, cookie preferences, website cookies" />
+        <link rel="canonical" href="https://www.digimarketingart.com/cookie-policy" />
+        <meta property="og:title" content="Cookie Policy - Digimarketing Art" />
+        <meta property="og:description" content="Cookie Policy of Digimarketing Art. Learn about how we use cookies, your preferences, and your rights regarding data privacy." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.digimarketingart.com/cookie-policy" />
+        <meta property="og:image" content="https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Cookie Policy - Digimarketing Art" />
+        <meta name="twitter:description" content="Cookie Policy of Digimarketing Art. Learn about how we use cookies and your data privacy rights." />
+        <meta name="twitter:image" content="https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" />
       </Head>
       <div style={{ position: 'absolute', inset: 0, background: 'rgba(247, 246, 243, 0.85)', zIndex: 0 }} />
       <div style={{ position: 'relative', zIndex: 1 }}>

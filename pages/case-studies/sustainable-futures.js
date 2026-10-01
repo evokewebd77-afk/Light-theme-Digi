@@ -36,6 +36,34 @@ function SustainableFuturesCaseStudy() {
         <title>Sustainable Futures - Case Study | Digimarketing Art</title>
         <meta name="description" content="Discover how Digimarketing Art helped Sustainable Futures Training with digital marketing to promote sustainability education and training programs." />
         <meta name="keywords" content="Sustainable Futures case study, sustainability education marketing, digital marketing case study" />
+        <link rel="canonical" href="https://www.digimarketingart.com/case-studies/sustainable-futures" />
+        <meta property="og:title" content="Sustainable Futures - Case Study | Digimarketing Art" />
+        <meta property="og:description" content="Discover how Digimarketing Art helped Sustainable Futures Training with digital marketing." />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="https://www.digimarketingart.com/case-studies/sustainable-futures" />
+        <meta property="og:image" content="https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Sustainable Futures - Case Study | Digimarketing Art" />
+        <meta name="twitter:description" content="Discover how Digimarketing Art helped Sustainable Futures Training with digital marketing." />
+        <meta name="twitter:image" content="https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Article",
+              "headline": "Sustainable Futures - Case Study",
+              "description": "Discover how Digimarketing Art helped Sustainable Futures Training with digital marketing.",
+              "author": { "@type": "Organization", "name": "Digimarketing Art" },
+              "publisher": {
+                "@type": "Organization",
+                "name": "Digimarketing Art",
+                "logo": { "@type": "ImageObject", "url": "https://res.cloudinary.com/didtfhfme/image/upload/f_auto,q_auto/v1779180783/logo_wc6s9i.png" }
+              },
+              "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.digimarketingart.com/case-studies/sustainable-futures" }
+            })
+          }}
+        />
       </Head>
 
       {/* ─────────────────── GLOBAL ANIMATION STYLES ─────────────────── */}
@@ -172,10 +200,20 @@ function SustainableFuturesCaseStudy() {
 
             {/* About */}
             <div className="sft-hover-card" style={card()}>
-              <span style={label()}>About The Client</span>
-              <h2 style={h2({ marginBottom:10 })}>Client Overview</h2>
+              <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between', marginBottom:12 }}>
+                <div>
+                  <span style={label()}>About The Client</span>
+                  <h2 style={h2({ marginBottom:0 })}>Client Overview</h2>
+                </div>
+                <img
+                  src="https://res.cloudinary.com/didtfhfme/image/upload/v1779180796/sft_fl24sf.webp"
+                  alt="Sustainable Future Training"
+                  style={{ width:85, height:85, borderRadius:12, objectFit:'contain', flexShrink:0 }}
+                />
+              </div>
               <p style={p({ marginBottom:16 })}>Sustainable Futures Training is a professional training and education provider focused on helping individuals and organizations develop future-ready skills through specialized training programs and certifications.</p>
               <p style={p({ marginBottom:16 })}>Their programs serve aspiring professionals, working executives, and organizations looking to invest in workforce development and sustainability-focused education.</p>
+              <p style={p({ marginBottom:16 })}><strong>Website:</strong> <a href="https://www.sftrainings.org/" target="_blank" rel="noopener noreferrer" style={{ color: THEME_COLOR }}>https://www.sftrainings.org/</a></p>
               <div style={{ display:'flex', flexWrap:'wrap', gap:7 }}>
                 {['Aspiring Professionals','Working Executives','Organizations','Workforce Development'].map((s,i) => (
                   <span key={i} className="sft-tag" style={{
@@ -440,6 +478,15 @@ function SustainableFuturesCaseStudy() {
               <div style={{ fontSize:13, fontWeight:700, color:'var(--text-secondary)', marginTop:8, letterSpacing:'0.05em', textTransform:'uppercase' }}>Monthly Qualified Leads</div>
               <p style={{ fontSize:14, color:'var(--text-secondary)', maxWidth:400, margin:'12px auto 0' }}>Leads generated every month through automated systems</p>
             </div>
+          </div>
+
+          {/* ── SFT IMAGE ── */}
+          <div className="sft-hover-card" style={{ ...card({ marginBottom:20 }), padding:0, overflow:'hidden' }}>
+            <img
+              src="/sft.webp"
+              alt="Sustainable Future Training Case Study"
+              style={{ width:'100%', height:'auto', display:'block' }}
+            />
           </div>
 
           {/* ── BUSINESS IMPACT ── */}
